@@ -1,6 +1,6 @@
 # Measurable Science
 
-**An open scientific research project focused on reproducible measurements, transparent methodology, affordable scientific instrumentation and independent verification.**
+An open scientific research project focused on reproducible measurements, transparent methodology, affordable scientific instrumentation and independent verification.
 
 All measurements, software, documentation and methodology are published openly so that anyone can reproduce, verify or challenge the results.
 
@@ -83,6 +83,24 @@ This section includes:
 - software used for data acquisition
 
 It also documents the evolution of the equipment—from a simple hand-wound induction coil to modern digital sensors.
+
+---
+
+## 📍 Locations
+
+Contains documentation for every measurement location used throughout the project.
+
+Each documented location may include:
+
+- GPS coordinates
+- photographs of the measurement site
+- altitude
+- date and time of the measurements
+- local environmental conditions
+- notes about nearby infrastructure or possible sources of interference
+- links to the datasets recorded at that location
+
+Careful documentation of measurement locations allows future experiments to be reproduced and compared under similar conditions.
 
 ---
 
