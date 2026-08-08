@@ -1,0 +1,12 @@
+Cluster_Range_Hz,Cluster_Width_Hz,Peak_Freq_Hz,PLV_Peak_Score,Prominence,Mean_Raw_PLV,Cluster_Type,Integrated_PLV_Score,Active_Windows_Count,Site,Prep_Mode
+1.1 - 1.7,0.6,1.6,40.20522444030241,22.4,0.437,Phase Coherent Band,148.6767388074545,2,kapadokia-restoran_normalized,raw
+5.5 - 5.6,0.1,5.6,16.357305398883316,16.4,0.394,Phase Coherent Band,31.488940550796755,2,kapadokia-restoran_normalized,raw
+3.0 - 3.1,0.1,3.0,12.939888957647568,8.1,0.412,Phase Coherent Band,24.69995416085593,2,kapadokia-restoran_normalized,raw
+8.5 - 8.6,0.1,8.6,12.014130430472363,7.5,0.387,Phase Coherent Band,19.351216406758198,2,kapadokia-restoran_normalized,raw
+9.1 - 9.1,0.0,9.1,11.255266686937789,11.3,0.375,Phase Coherent Band,11.255266686937789,2,kapadokia-restoran_normalized,raw
+1.7 - 2.1,0.4,1.9,12.956207078426637,8.1,0.38,Phase Coherent Band,45.63734240093041,1,kapadokia-restoran_normalized,diff
+1.0 - 1.3,0.3,1.1,11.624576752998832,3.4,0.39,Phase Coherent Band,38.96631433892345,2,kapadokia-restoran_normalized,diff
+7.6 - 7.8,0.2,7.6,13.816614163504488,13.8,0.348,Phase Coherent Band,34.78555303372887,2,kapadokia-restoran_normalized,diff
+1.0 - 2.8,1.8,1.2,24.97212159881382,4.9,0.557,Phase Coherent Band,289.8586400176784,2,kapadokia-restoran_normalized,spectral_whitening
+9.0 - 9.1,0.1,9.1,13.69461867636563,13.7,0.355,Phase Coherent Band,24.884706524629294,1,kapadokia-restoran_normalized,spectral_whitening
+4.8 - 4.8,0.0,4.8,10.489260810676669,10.5,0.35,Phase Coherent Band,10.489260810676669,1,kapadokia-restoran_normalized,spectral_whitening
