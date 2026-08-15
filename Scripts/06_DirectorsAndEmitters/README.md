@@ -95,3 +95,36 @@ Instead, the goal is to encourage independent measurements, independent analysis
 If researchers obtain recordings from additional locations using compatible sensors, the same scripts can be executed without modification, allowing the database of investigated sites to grow over time.
 
 Every additional measurement helps evaluate whether these recurring frequency structures represent reproducible natural phenomena or merely local effects.
+
+---
+
+# Carrier Coupling Analysis
+
+In addition to identifying the strongest energetic channels, an experimental analysis was performed to investigate whether these channels exhibit temporal coupling with the frequency region commonly associated with the first Schumann resonance.
+
+Several complementary methods were applied, including:
+
+- envelope coherence analysis;
+- sliding-window coherence stability;
+- transfer function comparison between energetic channels and the Schumann frequency band.
+
+The purpose of these analyses is not to demonstrate a physical mechanism, but to determine whether recurring statistical relationships exist between the strongest local energetic bands and the Schumann frequency region.
+
+Across the investigated locations, moderate and relatively stable envelope coherence was observed, while transfer-function estimates remained of the same order of magnitude despite the large geographical separation of the measurement sites.
+
+These observations alone do not demonstrate causal coupling. However, they provide additional evidence that the detected energetic structures deserve further investigation and motivate future synchronized measurements performed simultaneously at multiple locations.
+
+---
+
+# Comparative Figures
+
+The generated figures illustrate:
+
+- comparison of the three strongest energy bands for every location;
+- relative dominance of the strongest channels;
+- frequency ranges occupied by the detected energetic structures;
+- envelope coherence with the Schumann frequency band;
+- temporal stability of the observed coherence;
+- transfer-function comparison across measurement sites.
+
+Unlike a CSV table that lists only the central frequency, these figures show the entire frequency interval occupied by each energetic channel, making similarities and differences between locations much easier to evaluate.
