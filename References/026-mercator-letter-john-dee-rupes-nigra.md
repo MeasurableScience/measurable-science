@@ -1,114 +1,171 @@
 # Reference 026 — Mercator's 1577 letter to John Dee and Rupes Nigra
 
-## Primary manuscript
+## Primary source included in this repository
 
-British Library
-Cotton MS Vitellius C VII
+The complete scholarly paper containing the surviving text and discussion
+of Mercator's 1577 letter to John Dee is included in this References folder:
+
+Taylor, E. G. R. (1956).
+
+"A Letter Dated 1577 from Mercator to John Dee."
+
+*Imago Mundi*, Vol. 13, pp. 56–68.
+
+DOI:
+10.1080/03085695608592127
+
+See the complete PDF included alongside this reference file.
+
+The paper contains the transcription and discussion used for the
+historical claims in this section of the book.
+
+---
+
+## Original manuscript
+
+British Library  
+Cotton MS Vitellius C VII  
 Works of John Dee
-
-British Library catalogue:
-https://searcharchives.bl.uk/catalog/040-001103011
 
 Shelfmark:
 Cotton MS Vitellius C VII
 
-The British Library identifies this manuscript as a collection of works
-by John Dee (1527–1609).
+British Library catalogue:
+https://searcharchives.bl.uk/catalog/040-001103011
 
-It includes:
+The manuscript contains geographical material associated with John Dee
+and preserves material connected with Mercator's correspondence.
 
-John Dee, "Of Famous and Rich Discoveries" [1577],
-folios 26r–269v.
-
-The manuscript is part of the Cotton Collection.
-
-The British Library notes that the leaves were damaged by fire in 1731.
-
-## Mercator correspondence
-
-Within Dee's geographical material survives information supplied by
-Gerardus Mercator concerning the geography of the far north.
-
-A letter from Mercator to Dee is dated:
+Mercator's letter is dated:
 
 20 April 1577.
 
-The correspondence preserves information Mercator said he obtained from
-earlier geographical sources, including material associated with
-Jacobus Cnoyen and the lost medieval geographical tradition generally
-connected with the Inventio Fortunata.
+---
+
+## What the surviving account describes
+
+Mercator transmits an older description of the Arctic containing:
+
+- four northern lands
+- four great inward-flowing seas
+- waters converging toward the Pole
+- a central whirlpool
+- water circling and descending into the Earth like through a funnel
+- a central rock directly beneath the Pole
+
+The central whirlpool is described as extending approximately four
+degrees on either side of the Pole:
+
+approximately 8 degrees across.
+
+For the rough geometrical model used in the book this corresponds to a
+scale of approximately:
+
+~880 km.
+
+---
 
 ## Rupes Nigra
 
-Mercator's description places a remarkable structure beneath the North
-Pole.
+Directly beneath the Pole Mercator describes a bare rock.
 
-He describes a bare rock situated in the sea directly beneath the Pole.
+The surviving transcription gives its circumference as:
 
-The surviving description gives its circumference as:
+"almost 33 French miles."
 
-"almost 33 French miles"
+It is described as:
 
-and describes it as being composed of magnetic stone.
+- bare
+- black
+- glistening
+- extraordinarily high
+- visible from the surrounding sea
+- composed of magnetic stone
+- without soil
+- without vegetation
 
-This feature later became known as:
+The account explains that nothing grows upon it because there is not even
+a handful of soil upon the rock.
+
+Mercator's Arctic cartography associates the central structure with:
 
 Rupes Nigra et Altissima
 
 — the Black and Very High Rock.
 
-## The surrounding northern system
+Using the historical circumference only as a rough geometrical input gives
+a working diameter of approximately:
 
-Mercator's account does not describe the central rock in isolation.
+~47 km.
 
-The older geographical tradition transmitted through Mercator describes
-four northern lands separated by channels or "indrawing seas" through
-which water moves toward the central polar region.
+This must not be confused with the much larger ~8-degree central
+whirlpool.
 
-The water is described as moving toward a central whirlpool and
-descending into the Earth.
+---
 
-This distinction is important for the model developed in the book:
+## Navigation toward the centre
 
-the approximately 33 French miles refer to the circumference of the
-central black rock, not necessarily to the diameter of the entire
-surrounding polar structure.
+The account describes extremely strong inward-moving currents.
 
-The larger surrounding whirlpool / indrawing-sea system must therefore
-be treated separately from the dimensions attributed to Rupes Nigra
-itself.
+In parts of the system the current is described as too strong for ships
+simply to sail back against it.
 
-## Modern institutional confirmation
+Closer to the central region, vessels carried inward are described as
+being lost.
 
-The Library of Congress discusses Mercator's Arctic cartography and
-his 1577 letter to John Dee.
+The four inward-flowing seas ultimately converge on the central whirlpool,
+where the water is described as descending into the Earth.
 
-It confirms that Mercator described a bare rock directly beneath the
-Pole with a circumference of almost 33 French miles and composed of
-magnetic stone.
+See the included Taylor PDF for the complete wording and context.
 
-Library of Congress:
+---
+
+## Independent institutional references
+
+### British Library
+
+Catalogue record for Cotton MS Vitellius C VII:
+
+https://searcharchives.bl.uk/catalog/040-001103011
+
+### Library of Congress
+
+"Mapping Magnetism"
+
+Discusses Mercator's Arctic geography, the four-part polar system and
+Rupes Nigra:
+
 https://blogs.loc.gov/maps/2025/05/mapping-magnetism/
+
+### Princeton University Library
+
+Mercator and the Arctic / Northwest Passage material, including the
+relevant passage from the 1577 letter:
+
+https://static-prod.lib.princeton.edu/visual_materials/maps/websites/northwest-passage/mercator.htm
+
+### Published scholarly edition
+
+Taylor, E. G. R. (1956).
+"A Letter Dated 1577 from Mercator to John Dee."
+*Imago Mundi*, 13, 56–68.
+
+DOI:
+10.1080/03085695608592127
+
+---
 
 ## Historical status
 
-Rupes Nigra is not accepted by modern geography as a confirmed physical
-feature of the Arctic.
+Modern geography does not recognise Rupes Nigra or Mercator's central
+polar whirlpool as confirmed physical features.
 
-The reference is therefore not used as evidence that Rupes Nigra
-physically exists.
+This reference therefore establishes the historical description, not the
+physical existence of the structure.
 
-It establishes something narrower and historically verifiable:
+The book treats the description as a hypothesis whose physical
+consequences can be tested independently.
 
-Mercator transmitted this description in connection with his Arctic
-geography, and material associated with Dee's 1577 geographical work
-survives in British Library manuscript Cotton MS Vitellius C VII.
-
-## Relevance to the book
-
-The book uses the Mercator account as a historical geometrical
-hypothesis to be tested rather than as an established geographical fact.
-
-The dimensions and descriptions preserved in the historical account can
-therefore be entered into the model and their physical consequences
-examined independently.
+The complete Taylor paper supplied in this References folder should be
+consulted for the original context rather than relying only on this
+summary.
