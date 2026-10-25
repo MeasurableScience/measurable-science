@@ -525,3 +525,31 @@ The ice-melting calculation is likewise an upper energy bound.
 The values are intended to allow the hypothesis to make quantitative
 predictions that can later be compared with the physical consequences
 required elsewhere in the model.
+
+---
+
+# 16. Himalayan uplift: observational constraints on lateral magmatic branches
+
+The book proposes that lateral redistribution of magma and pressure through branches of the hypothesized deep network may have contributed to the uplift of pre-existing marine sedimentary rocks in the Himalaya. This section records relevant observations; it does not establish the proposed mechanism.
+
+Marine origin of Everest summit rocks. The Ordovician limestone of the Qomolangma Formation contains marine fossil fragments, including crinoids, trilobites and ostracods. These fossils establish a marine depositional origin for the summit strata. Their present elevation requires subsequent uplift; the fossils alone do not identify its driving mechanism.
+
+Source: Sakai et al. (2005), "Geology of the summit limestone of Mount Qomolangma (Everest) and cooling history of the Yellow Band under the Qomolangma detachment," Island Arc.
+https://doi.org/10.1111/j.1440-1738.2005.00499.x
+
+Regional mid-crustal conductor. Magnetotelluric measurements across 77–92 degrees E identify an electrically conductive zone extending for at least 1,000 km along the southern Tibetan Plateau. Its interpretation as a partially molten crustal layer is consistent with the possibility of melt at depth. Electrical conductivity alone does not establish a continuous magma-filled channel: interconnected aqueous fluids and other conductive phases must also be considered.
+
+Source: Unsworth et al. (2005), "Crustal rheology of the Himalaya and Southern Tibet inferred from magnetotelluric data," Nature 438, 78–81.
+https://doi.org/10.1038/nature04154
+
+Local candidate magmatic pathways. A three-dimensional inversion of magnetotelluric observations from 62 sites in the Puga–Chumathang geothermal region of Ladakh delineates crustal conductivity anomalies and possible connections among geothermal structures. The authors discuss secondary magmatic bodies or pathways as possible heat sources. These are regional inferences, not direct observations of magma moving beneath the entire Himalayan chain.
+
+Source: Kumar et al. (2026), "Inferred secondary magma pathways between Puga and Chumathang geothermal systems from magnetotelluric data in the Himalayan collisional zone," Earth, Planets and Space 78, article 3.
+https://doi.org/10.1186/s40623-025-02312-8
+
+Competing and potentially interacting processes. Seismic observations also image northward underthrusting of Indian lithosphere beneath Tibet. The standard tectonic interpretation links Himalayan uplift to crustal shortening and thickening. Partial melting does not, by itself, distinguish between this interpretation and a contribution from deep magmatic pressure; both processes may coexist.
+
+Source: Zhao et al. (2010), "The boundary between the Indian and Asian tectonic plates below Tibet," Proceedings of the National Academy of Sciences.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2895109/
+
+Testable prediction of the proposed model. If converging lateral branches contributed materially to Himalayan uplift, independent seismic, electromagnetic, petrological and geochronological observations should identify their geometry, timing and relationship to uplift. The presently reported conductive zones support investigation of deep melt-related processes but do not yet demonstrate connected branches or quantify their contribution to mountain building.
