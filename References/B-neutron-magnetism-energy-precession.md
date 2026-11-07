@@ -1,781 +1,881 @@
 
 
-# Reference [B] — Neutron Magnetic Moment, Energy and Precession: A Relational Model Test
+# Reference [B] — Neutron Mass, Magnetic Moment, Energy and Precession: A Relational Mathematical Model
 
-## Purpose and scope
+## 1. Purpose of the reference
 
-This reference extends **Reference [A] — Relation, Energy, Spiral and Mass** by comparing its relational-energy framework with experimentally established magnetic properties of the neutron.
+Reference [A] develops the mathematical possibility that fundamental units carry unmanifested potential and that this potential becomes expressed through relations.
 
-It examines two linked observables:
+The present reference examines the next level of organization: the neutron.
 
-- **Magnetic energy splitting**
+In the author's proposed model, the neutron is the first organized form to which measurable mass can be assigned. It is also considered a generator of the basic constituents from which atomic matter can subsequently be organized.
 
-- **Spin-precession frequency**
+The purpose of Reference [B] is to examine whether the mathematical structure introduced in Reference [A] can be connected consistently to four measured properties of the neutron:
 
-The central question is whether a specified relational model can **predict** the neutron's magnetic moment, rather than merely reproduce standard formulas after inserting the measured value.
+1. Its mass and corresponding rest energy.
+2. Its magnetic moment.
+3. Its interaction energy in an external magnetic field.
+4. The frequency of its spin precession.
 
-**Status of claims:** Neutron magnetic moment, spin, and precession are established physics. The proposal that magnetism is a manifestation of relational potential is a **hypothesis**.
-
-No derivation of the neutron's magnetic moment from Reference [A] is presently available.
-
----
-
-## 1. Starting point: Reference [A]
-
-For two hypothetical elementary units, Reference [A] defines a relation and its energetic potential:
-
-$$
-
-R_{ij}, \qquad P_{ij}=P(R_{ij})
-
-$$
-
-with:
-
-$$
-
-[P_{ij}]=\mathrm{J}
-
-$$
-
-Manifested energy is represented by:
-
-$$
-
-E_{ij}=E(P(R_{ij}))
-
-$$
-
-with:
-
-$$
-
-[E_{ij}]=\mathrm{J}
-
-$$
-
-For an organized network:
-
-$$
-
-\Omega=\{R_{ij}\}
-
-$$
-
-Reference [A] writes:
-
-$$
-
-E_\Omega=F\left(\{E(P(R_{ij}))\}\right)
-
-$$
-
-and:
-
-$$
-
-m_\Omega=\frac{E_\Omega}{c^2}
-
-$$
-
-Here, $F$ is **not yet specified**.
-
-In particular, the model does not assume:
-
-$$
-
-E_\Omega=\sum E_{ij}
-
-$$
-
-Reference [A] also describes attraction, repulsion, motion, changing relations, vibration, and possible spiral organization.
-
-These statements supply a proposed organizational framework, **not yet a microscopic electromagnetic interaction law**.
-
-The additional hypothesis examined here is:
-
-**MAGNETISM IS A MANIFESTATION OF RELATIONAL POTENTIAL.**
-
-To make this a quantitative theory, the hypothesis must ultimately specify how a network of relations generates a magnetic dipole moment, including its sign, magnitude, spin dependence, and response to external fields.
+The objective is to construct a mathematically explicit connection between relational energy and the measurable magnetic response of an organized form.
 
 ---
 
-## 2. Experimental neutron inputs
+## 2. From fundamental potential to organized energy
 
-The free neutron is electrically neutral, has spin $s=1/2$, and possesses a nonzero intrinsic magnetic dipole moment.
+The starting point is the mathematical framework introduced in Reference [A].
 
-Its conventional measured values, using rounded CODATA 2022 values, are:
+Let the fundamental units be:
 
-$$
+\[
+S_1,S_2,\ldots,S_N
+\]
 
-\begin{aligned}
+Each unit carries the possibility of expressing potential.
 
-\mu_n &\simeq -1.91304276\,\mu_N,\\
+For two units \(S_i\) and \(S_j\), let their potentials be represented by:
 
-\mu_n &\simeq -9.6623653\times10^{-27}\ \mathrm{J/T},\\
+\[
+P_i,\qquad P_j
+\]
 
-\mu_N &\simeq 5.0507837\times10^{-27}\ \mathrm{J/T},\\
+Their relation is:
 
-\frac{|\gamma_n|}{2\pi} &\simeq 29.1646935\times10^6\ \mathrm{Hz/T}.
+\[
+R_{ij}
+\]
 
-\end{aligned}
+The manifestation of their potential through that relation is represented by the function:
 
-$$
+\[
+\boxed{E_{ij}=M(P_i,P_j,R_{ij})}
+\]
 
-The negative sign of $\mu_n$ expresses the orientation of the neutron magnetic moment **opposite to its spin**.
+The distinction is fundamental to the model:
 
-Although the neutron's net electric charge is zero, standard quantum chromodynamics describes it as a composite system with electrically charged quarks and gluon dynamics.
+**Potential belongs to the fundamental units. Energy belongs to the manifested relation.**
 
-Neutrality therefore does not imply absence of charged constituents.
+The fundamental unit is not assigned mass or measurable energy in isolation.
 
-These values are **experimental inputs**, not predictions of the relational model.
+When multiple relations become organized into a connected structure \(\Omega\), the energy of that structure is represented by:
+
+\[
+\boxed{E_\Omega=H(\{E_{ij}\},\Omega)}
+\]
+
+Here:
+
+- \(E_{ij}\) represents the manifested energy of an individual relation.
+- \(\Omega\) represents the organization of those relations.
+- \(H\) represents the collective energetic response of the organized structure.
+
+The function \(H\) allows the energy of an organized form to depend on its internal configuration rather than requiring a simple sum of independent contributions.
+
+This provides the mathematical starting point for the appearance of a measurable mass.
 
 ---
 
-## 3. Measured magnetic moment and orientation-dependent energy
+## 3. The neutron as an organized form
 
-The standard magnetic interaction Hamiltonian is:
+The author proposes that the organization of neutrino relations can generate a neutron.
 
-$$
+In this interpretation, the neutron represents a transition from the initial relational organization to a form with measurable physical properties.
 
-H_{\mathrm{int}}=-\boldsymbol{\mu}\cdot\mathbf{B}
+The neutron is not presented as fully developed atomic matter. It is considered a **generator of matter**, because its transformation can produce constituents necessary for the subsequent organization of atoms.
 
-$$
+### 3.1 Known internal structure
 
-For a classical dipole orientation angle $\theta$, this corresponds to:
+In established particle physics, a neutron is a composite particle whose internal structure is described through quarks, gluons and the strong interaction.
 
-$$
+Its three valence quarks are:
 
-U(\theta)=-|\mu_n|B\cos\theta
+- One up quark, with electric charge \(+2/3\).
+- Two down quarks, each with electric charge \(-1/3\).
 
-$$
+Their total charge is:
 
-For a spin-1/2 neutron in a uniform magnetic field along the $z$ axis, the two allowed spin projections yield an energy splitting of magnitude:
+\[
+Q_n=\frac23-\frac13-\frac13=0
+\]
 
-$$
+The neutron is therefore electrically neutral despite containing nonzero internal electric-charge contributions.
 
-\boxed{\Delta E=2|\mu_n|B}
+This illustrates an important mathematical principle:
 
-$$
+**A neutral resultant can contain substantial internal interactions and energy.**
 
-At $B=1\ \mathrm{T}$:
+The neutron also has spin \(1/2\), a nonzero magnetic moment and a measurable rest mass.
 
-$$
+These properties provide quantitative reference points for the proposed relational model.
 
-\Delta E=2(9.6623653\times10^{-27})(1)
+### 3.2 Transformation of a free neutron
 
-$$
+A free neutron undergoes beta decay:
+
+\[
+\boxed{n\rightarrow p+e^-+\bar\nu_e}
+\]
+
+The products are:
+
+- A proton.
+- An electron.
+- An electron antineutrino.
+
+Within the author's model, this transformation is significant because the neutron functions as a generator of constituents involved in the formation of atomic matter.
+
+The appearance of an antineutrino during the transformation also motivates the proposed investigation of neutrino relations in the formation and reorganization of matter.
+
+This is the physical hypothesis that connects the initial relational organization with the observed neutron.
+
+---
+
+## 4. Neutron mass and the energy of an organized form
+
+The measured neutron mass is approximately:
+
+\[
+\boxed{m_n=1.67492750056\times10^{-27}\ \mathrm{kg}}
+\]
+
+Its corresponding rest energy is:
+
+\[
+E_n=m_nc^2
+\]
+
+Using the measured neutron mass and the speed of light gives:
+
+\[
+\boxed{E_n=939.56542194\ \mathrm{MeV}}
+\]
+
+These are experimentally established physical quantities.
+
+The neutron's rest energy is not simply the sum of the rest masses of its three valence quarks.
+
+In quantum chromodynamics, the nucleon's mass is largely associated with the energy of its internal quark-gluon dynamics.
+
+This observation is important for the proposed relational interpretation.
+
+It demonstrates that the measurable mass of a composite system cannot generally be understood as a simple addition of the rest masses of its constituents.
+
+### 4.1 Mass in the relational model
+
+In Reference [A], the energy of an organized form is represented by:
+
+\[
+E_\Omega=H(\{E_{ij}\},\Omega)
+\]
+
+Once an organized form has a measurable rest energy, its mass can be expressed through:
+
+\[
+E_\Omega=m_\Omega c^2
+\]
 
 Therefore:
 
-$$
+\[
+\boxed{m_\Omega=\frac{E_\Omega}{c^2}}
+\]
 
-\boxed{\Delta E=1.93247306\times10^{-26}\ \mathrm{J}}
+The dimensional relation is consistent:
 
-$$
+\[
+\frac{\mathrm J}{\mathrm{m^2/s^2}}=\mathrm{kg}
+\]
 
-Using:
+For the neutron, the measured target becomes:
 
-$$
+\[
+\boxed{
+H(\{E_{ij}\},\Omega_n)
+=
+939.56542194\ \mathrm{MeV}
+}
+\]
 
-1\ \mathrm{eV}=1.602176634\times10^{-19}\ \mathrm{J}
+Here \(\Omega_n\) represents the proposed organization associated with the neutron.
 
-$$
+The author's interpretation is that **mass represents the rest energy of an organized form**.
 
-we obtain:
+Rest energy does not imply an absence of internal motion. The organization may contain substantial internal dynamics while possessing a definite invariant mass.
 
-$$
-
-\Delta E\simeq1.20615\times10^{-7}\ \mathrm{eV}
-
-$$
-
-or:
-
-$$
-
-\boxed{\Delta E\simeq0.120615\ \mu\mathrm{eV}}
-
-$$
-
-**Interpretation**
-
-Energy depends on the relative orientation of the neutron magnetic moment and the applied magnetic field.
-
-This is a real, measurable **relation-dependent energy**.
-
-However, it does not establish that the magnetic moment itself originates in the relational potential postulated by Reference [A].
-
-The interaction Hamiltonian already assumes the existence of the magnetic moment.
-
-**Dimensional verification:**
-
-$$
-
-(\mathrm{J/T})\times\mathrm{T}=\mathrm{J}
-
-$$
+In this way, mass is introduced as a property of the organized system rather than as a necessary starting property of an isolated fundamental unit.
 
 ---
 
-## 4. Spin dynamics and Larmor precession
+## 5. The measured magnetic moment of the neutron
 
-A magnetic dipole experiences torque:
+The neutron has zero net electric charge:
 
-$$
+\[
+Q_n=0
+\]
 
-\boldsymbol{\tau}=\boldsymbol{\mu}\times\mathbf{B}
+Nevertheless, it possesses a measurable magnetic moment.
 
-$$
+According to the 2022 CODATA recommended values, the neutron magnetic moment is:
 
-For angular momentum $\mathbf{S}$, the neutron's magnetic moment is:
+\[
+\boxed{\mu_n=-1.91304276\,\mu_N}
+\]
 
-$$
+where \(\mu_N\) is the nuclear magneton.
 
-\boldsymbol{\mu}=\gamma_n\mathbf{S}
+In SI units:
 
-$$
+\[
+\boxed{\mu_n=-9.6623653\times10^{-27}\ \mathrm{J/T}}
+\]
+
+The negative sign means that the neutron magnetic moment is oriented opposite to its spin angular momentum.
+
+The magnitude is:
+
+\[
+|\mu_n|=9.6623653\times10^{-27}\ \mathrm{J/T}
+\]
+
+The magnetic moment provides a direct connection between the neutron's internal organization and its response to an external magnetic field.
+
+It is therefore a useful measurable quantity for examining a model in which the properties of a composite particle arise from organized internal relations.
+
+---
+
+## 6. Magnetic interaction energy
+
+A magnetic moment \(\boldsymbol{\mu}\) placed in an external magnetic field \(\mathbf B\) has interaction energy:
+
+\[
+\boxed{U=-\boldsymbol{\mu}\cdot\mathbf B}
+\]
+
+For a classical magnetic moment, this can be written:
+
+\[
+U=-|\mu|B\cos\theta
+\]
+
+where \(\theta\) is the angle between the magnetic moment and the magnetic field.
+
+The angular dependence is significant.
+
+It shows that the interaction energy changes with orientation even when the magnitudes of the magnetic moment and external field remain constant.
+
+This provides a mathematical comparison with the phase-dependent interaction introduced in Reference [A]:
+
+\[
+U_{ij}=-K_{ij}\cos\varphi_{ij}
+\]
 
 where:
 
-$$
+\[
+K_{ij}=G(P_i,P_j)
+\]
 
-\gamma_n<0
+The two expressions share the mathematical structure of an orientation-dependent interaction.
 
-$$
+The model does not require the fundamental units themselves to be conventional magnets. The comparison concerns the mathematical dependence of interaction energy on relative orientation.
 
-Consequently:
+### 6.1 The two spin-energy states
 
-$$
+For a spin-\(1/2\) neutron in a uniform external magnetic field, the two allowed spin projections correspond to two magnetic interaction energies.
 
-\frac{d\mathbf{S}}{dt}
+Their energy separation is:
 
-=\boldsymbol{\tau}
+\[
+\boxed{\Delta E=2|\mu_n|B}
+\]
 
-=\gamma_n\mathbf{S}\times\mathbf{B}
+For:
 
-$$
+\[
+B=1\ \mathrm T
+\]
 
-The spin orientation precesses with angular-frequency magnitude:
+we obtain:
 
-$$
-
-\omega_L=|\gamma_n|B
-
-$$
-
-The corresponding ordinary frequency is:
-
-$$
-
-\boxed{f_L=\frac{|\gamma_n|}{2\pi}B}
-
-$$
-
-At $B=1\ \mathrm{T}$:
-
-$$
-
-\boxed{f_L\simeq29.1646935\ \mathrm{MHz}}
-
-$$
-
-At other magnetic field strengths:
-
-\| Magnetic field | Precession frequency |
-
-\|---|---|
-
-\| 0.1 T | 2.91646935 MHz |
-
-\| 1 T | 29.1646935 MHz |
-
-\| 2 T | 58.329387 MHz |
-
-**Dimensional verification:**
-
-$$
-
-(\mathrm{Hz/T})\times\mathrm{T}=\mathrm{Hz}
-
-$$
-
-The neutron's negative gyromagnetic ratio determines the sense of precession relative to the applied field.
-
-The quoted frequency is its positive magnitude.
-
----
-
-## 5. Consistency test: energy, frequency and spin
-
-For spin $s=1/2$, the magnetic moment magnitude and gyromagnetic ratio obey:
-
-$$
-
-|\mu_n|=\frac{|\gamma_n|\hbar}{2}
-
-$$
+\[
+\Delta E
+=
+2(9.6623653\times10^{-27})(1)
+\]
 
 Therefore:
 
-$$
-
-\begin{aligned}
-
-\Delta E
-
-&=2|\mu_n|B\\
-
-&=|\gamma_n|\hbar B\\
-
-&=\hbar\omega_L\\
-
-&=\boxed{hf_L}
-
-\end{aligned}
-
-$$
-
-Using the exact SI value:
-
-$$
-
-h=6.62607015\times10^{-34}\ \mathrm{J\,s}
-
-$$
-
-At $B=1\ \mathrm{T}$:
-
-$$
-
-\begin{aligned}
-
-hf_L
-
-&=(6.62607015\times10^{-34})
-
-(29.1646935\times10^6)\ \mathrm{J}\\
-
-&\simeq1.93247\times10^{-26}\ \mathrm{J}
-
-\end{aligned}
-
-$$
-
-This agrees with the magnetic-energy splitting computed in Section 3, within the rounding of the input constants.
-
-### Important limitation
-
-The energy splitting and precession frequency are **not independent confirmations** of the relational hypothesis.
-
-They are connected by the established spin Hamiltonian and Planck's relation.
-
-Their agreement verifies internal numerical consistency of known neutron physics.
-
----
-
-## 6. Connection with Reference [A]
-
-Reference [A] provides the symbolic path:
-
-$$
-
-R_{ij}
-
-\longrightarrow P(R_{ij})
-
-\longrightarrow E(P(R_{ij}))
-
-\longrightarrow\Omega
-
-\longrightarrow E_\Omega
-
-$$
-
-The relational model proposes that potential arises through relations, while organized forms emerge through motion and changing relations.
-
-To describe neutron magnetism without presupposing it, an extension must define a field-dependent organized energy.
-
-One possible mathematical representation is:
-
-$$
-
-E_\Omega(\mathbf{B},\mathbf{S})
-
-=
-
-F\left(
-
-\{E(P(R_{ij};\mathbf{B},\mathbf{S}))\}
-
-\right)
-
-$$
-
-This is a **proposed mathematical extension**, not a result already established by Reference [A].
-
-For weak applied fields, a candidate magnetic moment can be defined through the energy response:
-
-$$
-
+\[
 \boxed{
-
-\boldsymbol{\mu}_{\mathrm{model}}
-
-=
-
--\left.
-
-\frac{\partial E_\Omega}{\partial\mathbf{B}}
-
-\right|_{\mathbf{B}=0,\mathbf{S}}
-
+\Delta E=1.93247306\times10^{-26}\ \mathrm J
 }
+\]
 
-$$
+Converting this energy into electronvolts gives:
 
-This derivative becomes physically meaningful only after the energy function and its dependence on the applied field have been specified.
+\[
+\Delta E\approx1.20615\times10^{-7}\ \mathrm{eV}
+\]
 
-Its dimensions are:
+or:
 
-$$
+\[
+\boxed{\Delta E\approx0.120615\ \mu\mathrm{eV}}
+\]
 
-\left[
+This is a measurable consequence of the neutron's magnetic moment.
 
-\frac{\partial E_\Omega}{\partial B}
+It also provides a quantitative example of energy changing with the orientation of an organized system relative to an external field.
 
-\right]
+---
 
-=\mathrm{J/T}
+## 7. Magnetic torque and neutron precession
 
-$$
+A magnetic moment in an external magnetic field experiences a torque:
 
-The experimental constraints are:
+\[
+\boxed{\boldsymbol{\tau}=\boldsymbol{\mu}\times\mathbf B}
+\]
 
-$$
+The magnitude of the torque is:
 
-\begin{aligned}
+\[
+\tau=|\mu|B|\sin\theta|
+\]
 
-\boldsymbol{\mu}_{\mathrm{model}}
+This reveals another important feature of angular dependence.
 
-&\parallel-\mathbf{S},\\
+The interaction energy contains a cosine dependence, while the torque contains a sine dependence.
 
-|\mu_{\mathrm{model}}|
+For the classical angular expression:
 
-&\stackrel{?}{=}9.6623653\times10^{-27}\ \mathrm{J/T},\\
+\[
+U=-|\mu|B\cos\theta
+\]
 
-\frac{|\gamma_{\mathrm{model}}|}{2\pi}
+we have:
 
-&\stackrel{?}{=}29.1646935\times10^6\ \mathrm{Hz/T}.
+\[
+\boxed{\tau_\theta=-\frac{\partial U}{\partial\theta}
+=-|\mu|B\sin\theta}
+\]
 
-\end{aligned}
+The signed torque depends on the adopted angular convention; its magnitude follows the sine dependence.
 
-$$
+Consequently:
 
-The question marks are intentional.
+- At \(0^\circ\) and \(180^\circ\), the torque magnitude vanishes.
+- At \(90^\circ\) and \(270^\circ\), its magnitude is maximal.
 
-**These results have not yet been derived from Reference [A].**
+The angular position of zero torque is therefore not the same as the angular position of zero interaction energy.
 
-If coefficients are selected specifically to reproduce the measured neutron magnetic moment, the result is a fit, not an independent prediction.
+This distinction is useful when interpreting the relationship between orientation, equilibrium and rotational response.
 
-Moreover, once a spin-1/2 model reproduces the neutron magnetic moment and uses the standard precession law, the precession frequency follows automatically.
+### 7.1 Larmor precession
 
-It cannot then be counted as an independent second success.
+The neutron magnetic moment is related to its spin angular momentum through the gyromagnetic ratio:
 
-### Why a transverse-force analogy is insufficient
+\[
+\boldsymbol{\mu}_n=\gamma_n\mathbf S
+\]
 
-A velocity-dependent term of the form:
+The spin evolves in an external magnetic field according to:
 
-$$
-
-\mathbf{F}_{\perp}
-
+\[
+\frac{d\mathbf S}{dt}
 =
+\gamma_n\mathbf S\times\mathbf B
+\]
 
-\lambda\mathbf{v}\times(\nabla\times\mathbf{C})
+For a neutron, the signed gyromagnetic ratio is negative.
 
-$$
+The magnitude of its Larmor angular frequency is:
 
-can be generated mathematically by a suitable Lagrangian.
+\[
+\boxed{\omega_L=|\gamma_n|B}
+\]
 
-It resembles the magnetic part of the Lorentz force.
+The ordinary precession frequency is:
 
-However, introducing $\mathbf{C}$ does not derive that field from $P(R_{ij})$.
+\[
+f_L=\frac{\omega_L}{2\pi}
+\]
 
-Furthermore, the free neutron has zero net electric charge.
+The measured magnitude of the neutron gyromagnetic ratio gives:
 
-Its magnetic moment couples through spin and magnetic-field gradients, rather than through the conventional charged-particle force:
+\[
+\frac{|\gamma_n|}{2\pi}
+=
+29.1646935\ \mathrm{MHz/T}
+\]
 
-$$
+Therefore:
 
-\mathbf{F}=q\mathbf{v}\times\mathbf{B}
+\[
+\boxed{
+f_L=29.1646935\,B\ \mathrm{MHz}
+}
+\]
 
-$$
+when \(B\) is expressed in tesla.
 
-Therefore, the transverse-force analogy alone cannot predict neutron magnetism.
+Examples:
 
----
+| Magnetic field | Larmor frequency |
+|---|---:|
+| 0.1 T | 2.91646935 MHz |
+| 1 T | 29.1646935 MHz |
+| 2 T | 58.3293870 MHz |
 
-## 7. A falsifiable relational-model programme
+At one tesla, the neutron precesses at approximately 29.16 million cycles per second.
 
-A future quantitative model should specify the following **before comparison with neutron measurements**.
-
-### 7.1 Relational variables
-
-Define the physical variables contained in:
-
-$$
-
-R_{ij}
-
-$$
-
-and specify the energetic potential:
-
-$$
-
-P(R_{ij})
-
-$$
-
-### 7.2 Organization of energy
-
-Specify the organization rule:
-
-$$
-
-E_\Omega=F(\{E(P(R_{ij}))\})
-
-$$
-
-and its coupling to an applied magnetic field.
-
-The measured neutron magnetic moment must not be inserted as an adjustable input.
-
-### 7.3 Emergence of spin
-
-Explain how an organized state acquires spin:
-
-$$
-
-s=\frac12
-
-$$
-
-including the required quantum transformation properties.
-
-### 7.4 Magnetic predictions
-
-Calculate the sign and magnitude of:
-
-$$
-
-\boldsymbol{\mu}_{\mathrm{model}}
-
-$$
-
-and predict its field-dependent energy splitting and precession dynamics.
-
-### 7.5 Independent experimental test
-
-Identify at least one additional observable not already fixed by the magnetic moment.
-
-Possible targets include:
-
-- A specified response to magnetic-field gradients.
-
-- A neutron electromagnetic form-factor prediction over a defined momentum-transfer range.
-
-These criteria distinguish dimensional consistency, parameter fitting, and genuine prediction.
+This provides a measurable relationship between the neutron's magnetic properties and its periodic spin dynamics.
 
 ---
 
-## 8. Result and conclusion
+## 8. The connection between magnetic moment, energy and frequency
 
-### Established measurements and mathematics
+We have already established the magnetic energy separation:
+
+\[
+\Delta E=2|\mu_n|B
+\]
+
+For a spin-\(1/2\) particle, the relation between the magnetic moment and gyromagnetic ratio is:
+
+\[
+|\gamma_n|=\frac{2|\mu_n|}{\hbar}
+\]
+
+Therefore:
+
+\[
+\Delta E=\hbar|\gamma_n|B
+\]
+
+Since:
+
+\[
+\omega_L=|\gamma_n|B
+\]
+
+we obtain:
+
+\[
+\Delta E=\hbar\omega_L
+\]
+
+And because:
+
+\[
+\omega_L=2\pi f_L
+\]
+
+and:
+
+\[
+h=2\pi\hbar
+\]
+
+the final expression is:
+
+\[
+\boxed{\Delta E=hf_L}
+\]
+
+Thus:
+
+\[
+\boxed{
+2|\mu_n|B=hf_L
+}
+\]
+
+This is the central measured relationship examined in Reference [B].
+
+### 8.1 Numerical verification
 
 For a magnetic field of one tesla:
 
-$$
+\[
+f_L=29.1646935\times10^6\ \mathrm{Hz}
+\]
 
-\begin{aligned}
+Using the Planck constant:
 
-\mu_n
+\[
+h=6.62607015\times10^{-34}\ \mathrm{J\,s}
+\]
 
-&\simeq-9.6623653\times10^{-27}\ \mathrm{J/T},\\
+we obtain:
 
+\[
+\Delta E=hf_L
+\]
+
+\[
 \Delta E
-
-&\simeq1.93247306\times10^{-26}\ \mathrm{J},\\
-
-f_L
-
-&\simeq29.1646935\ \mathrm{MHz}.
-
-\end{aligned}
-
-$$
-
-The energy-frequency relation is:
-
-$$
-
-\boxed{\Delta E=hf_L}
-
-$$
-
-### Relational hypothesis
-
-Magnetism may be a manifestation of relational potential within organized form.
-
-Reference [A] supplies a proposed mathematical framework connecting relation, potential, energy, motion, vibration, spiral organization, and mass.
-
-However, it currently lacks the microscopic magnetic coupling and quantum spin structure required to calculate the neutron magnetic moment from first principles.
-
-### Conclusion
-
-Neutron magnetism provides a concrete numerical target for the relational model.
-
-The experimentally grounded connection is:
-
-**MAGNETIC MOMENT → ORIENTATION-DEPENDENT ENERGY → PRECESSION FREQUENCY**
-
-The next theoretical requirement is to derive these observables from a specified relational mechanism without inserting the measured magnetic moment as an input.
-
-An additional independent observable would then be needed to test the model beyond this established relationship.
-
----
-
-## 9. Relational Potential and Magnetic Response — A Mathematical Possibility
-
-### 9.1 Scope
-
-This section does not claim that relational potential has been demonstrated to generate neutron magnetism. Its narrower purpose is to show a mathematically consistent route by which a field-sensitive network of relations **could** exhibit a magnetic response, and to identify what would need to be measured or specified to test that possibility.
-
-The experimentally established neutron magnetic moment, energy splitting, and Larmor precession remain distinct from the proposed relational interpretation. In particular, reproducing a known formula is not an independent experimental confirmation of the model.
-
-### 9.2 From relations to field-dependent organized energy
-
-Reference [A] introduces a relation between units, its potential, and manifested energy:
-
-\[
-R_{ij},\qquad P_{ij}=P(R_{ij}),\qquad E_{ij}=E(P_{ij}).
+=
+(6.62607015\times10^{-34})
+(29.1646935\times10^6)
 \]
 
-For an organized form, its energy is written generally as
-
-\[
-E_\Omega=F(\{E_{ij}\}).
-\]
-
-Consider the **hypothesis** that an applied magnetic field \(\mathbf B\) can modify relational variables, so that
-
-\[
-R_{ij}=R_{ij}(\mathbf B,\mathbf S,\ldots),
-\]
-
-where \(\mathbf S\) denotes spin or an orientation variable, and the ellipsis denotes other state variables held fixed when a derivative is taken. This dependence is a proposed modeling assumption, not an experimental result derived from [A].
-
-The corresponding organized energy is
-
-\[
-E_\Omega(\mathbf B,\mathbf S)
-=F\!\left(\{E(P(R_{ij}(\mathbf B,\mathbf S)))\}\right).
-\]
-
-If the functions are differentiable and the only field dependence enters through these relational variables, the magnetic moment associated with the energy response can be defined as
-
-\[
-\boldsymbol\mu_{\mathrm{model}}
-=-\left.\nabla_{\mathbf B}E_\Omega\right|_{\mathbf B=\mathbf 0,\,\mathbf S}.
-\]
-
-Applying the multivariable chain rule gives
+Therefore:
 
 \[
 \boxed{
-\boldsymbol\mu_{\mathrm{model}}
-=-\left.\sum_{(i,j)}
-\frac{\partial F}{\partial E_{ij}}
-\frac{dE_{ij}}{dP_{ij}}
-\frac{dP_{ij}}{dR_{ij}}
-\nabla_{\mathbf B}R_{ij}
-\right|_{\mathbf B=\mathbf 0,\,\mathbf S}
+\Delta E\approx1.93247\times10^{-26}\ \mathrm J
 }
 \]
 
-for scalar relational variables \(R_{ij}\). If relations are vector- or tensor-valued, the derivatives must be replaced by the corresponding Jacobian contractions. The sum is over the independent relations used to define \(F\), so each is counted once.
-
-**Dimensional check:** because \(E_\Omega\) has units of joules and \(\mathbf B\) has units of tesla,
+This agrees, within the stated precision, with the energy separation calculated from the neutron magnetic moment:
 
 \[
-[\boldsymbol\mu_{\mathrm{model}}]=\mathrm{J/T}.
+\Delta E=2|\mu_n|B
 \]
 
-This is the correct dimension for a magnetic dipole moment. Dimensional consistency is necessary, but it does not establish the proposed physical origin.
+The agreement follows from established quantum mechanics and the measured neutron constants. It is not an independent experimental confirmation of the proposed relational model.
 
-If \(F\), \(E\), \(P\), or the field response of \(R_{ij}\) includes additional explicit \(\mathbf B\)-dependence, the total derivative must also include the corresponding direct terms; the boxed expression is then incomplete unless those terms are added.
+Its relevance is that it provides a precise quantitative target for that model.
 
-### 9.3 A measured example of relation-dependent magnetic energy
+The measurable relationship is:
 
-For an existing magnetic dipole in a uniform external field, established physics gives
-
-\[
-U=-\boldsymbol\mu\cdot\mathbf B.
-\]
-
-With fixed dipole magnitude and field strength,
-
-\[
-U(\theta)=-|\mu|B\cos\theta,
-\]
-
-where \(\theta\) is the angle between the magnetic moment and the field. The generalized torque conjugate to this angle is
-
-\[
-\boxed{\tau_\theta=-\frac{\partial U}{\partial\theta}=-|\mu|B\sin\theta.}
-\]
-
-This demonstrates an experimentally grounded mathematical connection between **relative orientation**, **potential energy**, and **rotational response**. It does not demonstrate that a magnetic dipole originates from the hypothetical relational potential of Reference [A]; the dipole moment is already assumed in the standard interaction energy.
-
-For a spin-1/2 neutron, the corresponding two-state energy splitting is
-
-\[
-\Delta E=2|\mu_n|B=hf_L,
-\]
-
-where \(f_L\) is the Larmor precession frequency. This equality is established neutron physics, not a second independent confirmation of the relational hypothesis.
-
-### 9.4 What the possibility does—and does not—show
-
-The mathematical route is:
-
-**RELATION → RELATIONAL POTENTIAL → ORGANIZED ENERGY → FIELD RESPONSE → MAGNETIC MOMENT.**
-
-It is a conditional route: **if** the relational network has a specified field dependence, its organized energy can yield a magnetic response through differentiation. The observed neutron magnetic moment supplies a measurable quantity against which a fully specified model could later be tested.
-
-At present, this construction does **not** derive the magnitude, negative sign, spin-1/2 character, or precession dynamics of the neutron from the foundational relational assumptions alone. It also does not show that all attraction and repulsion are magnetic.
-
-The scientifically testable possibility is therefore narrower and precise:
-
-> **Magnetism may be a manifestation of relational potential within an organized form. Established magnetic energy and precession measurements make this a quantitative hypothesis worth investigating, but they do not by themselves prove its proposed origin.**
-
-The aim of *Merljiva Nauka* at this stage is to expose this possibility and invite independent mathematical and experimental examination—not to present an unverified mechanism as established fact.
+**MAGNETIC MOMENT — ENERGY — FREQUENCY.**
 
 ---
 
-## Sources and cross-references
+## 9. Connecting the relational function M to magnetic response
 
-- **[A]** [Relation, Energy, Spiral and Mass](https://github.com/MeasurableScience/measurable-science/blob/main/References/A-mathematical-model.md) — relational potential, energy, vibration, organized form and mass.
+The mathematical question is now whether a magnetic response can be expressed through the organization of relational energy.
 
-- **[8]** [Neutron](https://github.com/MeasurableScience/measurable-science/blob/main/References/008-neutron.md) — existing neutron background reference.
+Reference [A] introduces:
 
-- **NIST CODATA 2022:** [Fundamental Physical Constants](https://physics.nist.gov/cuu/pdf/all.pdf) — neutron magnetic moment, nuclear magneton and gyromagnetic ratio.
+\[
+E_{ij}=M(P_i,P_j,R_{ij})
+\]
 
-- **NIST CODATA:** [Constants database](https://physics.nist.gov/cuu/Constants/) — recommended constants and uncertainties.
+and:
 
-- **BIPM:** [SI Brochure](https://www.bipm.org/en/publications/si-brochure) — SI defining constants and Planck's constant.
+\[
+E_\Omega=H(\{E_{ij}\},\Omega)
+\]
+
+Once an organized form is placed in an external magnetic field, its energy may depend on the field:
+
+\[
+E_\Omega=E_\Omega(\mathbf B,\mathbf S)
+\]
+
+Here \(\mathbf S\) represents the spin orientation of the organized form.
+
+The magnetic moment can be represented through the derivative of energy with respect to the applied magnetic field, with the relevant internal state held fixed:
+
+\[
+\boxed{
+\boldsymbol{\mu}_{model}
+=
+-\left.
+\nabla_{\mathbf B}E_\Omega
+\right|_{\text{fixed state}}
+}
+\]
+
+For a neutron, the model must eventually reproduce the measured magnitude:
+
+\[
+\boxed{
+|\boldsymbol{\mu}_{model}|
+=
+9.6623653\times10^{-27}\ \mathrm{J/T}
+}
+\]
+
+This establishes a direct quantitative target.
+
+### 9.1 Introducing the phase dependence
+
+Reference [A] proposes the minimal periodic interaction:
+
+\[
+U_{ij}=-K_{ij}\cos\varphi_{ij}
+\]
+
+with:
+
+\[
+K_{ij}=G(P_i,P_j)
+\]
+
+The organized energy may then be considered as a functional of the angularly dependent internal interactions:
+
+\[
+E_\Omega
+=
+H(\{U_{ij}\},\Omega)
+\]
+
+To examine the simplest possible magnetic response, suppose that the external magnetic field changes the phase relationships \(\varphi_{ij}\) while the coefficients \(K_{ij}\) and the organization \(\Omega\) remain fixed.
+
+Then:
+
+\[
+\boldsymbol{\mu}_{model}
+=
+-\nabla_{\mathbf B}
+H(\{U_{ij}\},\Omega)
+\]
+
+Applying the chain rule:
+
+\[
+\boldsymbol{\mu}_{model}
+=
+-\sum_{ij}
+\frac{\partial H}{\partial U_{ij}}
+\nabla_{\mathbf B}U_{ij}
+\]
+
+Since:
+
+\[
+U_{ij}=-K_{ij}\cos\varphi_{ij}
+\]
+
+we have:
+
+\[
+\frac{\partial U_{ij}}{\partial\varphi_{ij}}
+=
+K_{ij}\sin\varphi_{ij}
+\]
+
+Therefore:
+
+\[
+\nabla_{\mathbf B}U_{ij}
+=
+K_{ij}\sin\varphi_{ij}
+\nabla_{\mathbf B}\varphi_{ij}
+\]
+
+Substituting this result gives:
+
+\[
+\boxed{
+\boldsymbol{\mu}_{model}
+=
+-\sum_{ij}
+\frac{\partial H}{\partial U_{ij}}
+K_{ij}\sin\varphi_{ij}
+\nabla_{\mathbf B}\varphi_{ij}
+}
+\]
+
+This expression provides a mathematical connection between:
+
+1. The potential carried by the fundamental units.
+2. Their phase-dependent interactions.
+3. The collective energy of an organized form.
+4. The magnetic moment of that form.
+
+It follows by differentiation under the stated assumptions.
+
+If the coefficients \(K_{ij}\) or the organization \(\Omega\) also respond directly to the magnetic field, their additional derivative contributions must be included in the general expression.
+
+### 9.2 Dimensional consistency
+
+The magnetic moment has SI dimensions:
+
+\[
+[\mu]=\mathrm{J/T}
+\]
+
+For the proposed interaction:
+
+\[
+[U_{ij}]=\mathrm J
+\]
+
+The phase is dimensionless:
+
+\[
+[\varphi_{ij}]=1
+\]
+
+Therefore:
+
+\[
+\left[
+\nabla_{\mathbf B}\varphi_{ij}
+\right]
+=
+\mathrm{T}^{-1}
+\]
+
+If \(H\) returns energy from energetic arguments, then:
+
+\[
+\left[
+\frac{\partial H}{\partial U_{ij}}
+\right]=1
+\]
+
+Consequently:
+
+\[
+[\mu_{model}]
+=
+1\times\mathrm J\times1\times\mathrm{T}^{-1}
+\]
+
+Hence:
+
+\[
+\boxed{[\mu_{model}]=\mathrm{J/T}}
+\]
+
+The dimensions agree with those of the measured neutron magnetic moment.
+
+### 9.3 Physical interpretation within the proposed model
+
+The resulting mathematical chain can be written as:
+
+**FUNDAMENTAL POTENTIAL → PHASE-DEPENDENT RELATION → MANIFESTED ENERGY → ORGANIZED FORM → MAGNETIC RESPONSE.**
+
+The importance of this expression is that the magnetic moment is represented as a response of the organized energy to a change in an external field.
+
+Within this construction, magnetic behavior is connected to the internal relational configuration of the system.
+
+The neutron provides a measurable example in which an electrically neutral organized form possesses a magnetic moment and exhibits periodic precession in an applied field.
+
+The remaining quantitative task is to determine the response of the internal phases to the applied field and the collective energy functional \(H\).
 
 ---
 
-**Methodological rule: MEASUREMENT ≠ MATHEMATICS ≠ HYPOTHESIS.**
+## 10. What the model must reproduce
+
+The proposed relational description can be compared with established neutron measurements through several explicit targets.
+
+### Target 1 — Rest energy
+
+The model's organized energy must reproduce:
+
+\[
+\boxed{E_{\Omega_n}=939.56542194\ \mathrm{MeV}}
+\]
+
+### Target 2 — Magnetic moment
+
+Its magnetic-energy response must reproduce:
+
+\[
+\boxed{
+\mu_n=-9.6623653\times10^{-27}\ \mathrm{J/T}
+}
+\]
+
+with the sign convention relating the neutron magnetic moment to its spin.
+
+### Target 3 — Spin structure
+
+The organized form must account for the neutron's spin:
+
+\[
+\boxed{s=\frac12}
+\]
+
+This requires an account of angular momentum in the organized system, not simply a geometrical picture of constituents circulating along a spiral.
+
+### Target 4 — Precession frequency
+
+In a one-tesla magnetic field, the model must reproduce:
+
+\[
+\boxed{f_L=29.1646935\ \mathrm{MHz}}
+\]
+
+### Target 5 — Magnetic energy splitting
+
+For the same field:
+
+\[
+\boxed{
+\Delta E=1.93247306\times10^{-26}\ \mathrm J
+}
+\]
+
+The measured magnetic moment, frequency and splitting are connected by established equations. Reproducing them through one fitted magnetic-moment parameter would therefore be a consistency test.
+
+A stronger test would be an additional observable predicted from the same internal relational structure without introducing an independent fitting parameter.
+
+The neutron's electromagnetic form factors, which characterize its response as a function of momentum transfer, offer one possible direction for such a comparison.
+
+---
+
+## 11. Summary
+
+Reference [A] introduces the possibility that fundamental units carry potential, that this potential manifests through relations and that organized relational energy can give rise to forms with measurable mass.
+
+Reference [B] examines this construction at the level of the neutron.
+
+The established measurements show that:
+
+- The neutron has a rest energy of approximately 939.565 MeV.
+- Its total electric charge is zero.
+- It possesses a nonzero magnetic moment.
+- Its magnetic interaction energy depends on orientation.
+- Its spin precesses in an external magnetic field.
+- Its precession frequency and magnetic energy splitting satisfy \(\Delta E=hf\).
+
+These observations provide a quantitative framework for investigating the author's proposed relation between potential, organization, energy and magnetism.
+
+The relational functions introduced in Reference [A] are:
+
+\[
+\boxed{E_{ij}=M(P_i,P_j,R_{ij})}
+\]
+
+\[
+\boxed{E_\Omega=H(\{E_{ij}\},\Omega)}
+\]
+
+The corresponding mass relation is:
+
+\[
+\boxed{m_\Omega=\frac{E_\Omega}{c^2}}
+\]
+
+For a phase-dependent interaction:
+
+\[
+\boxed{U_{ij}=-G(P_i,P_j)\cos\varphi_{ij}}
+\]
+
+the model admits an explicit mathematical expression for the magnetic response of an organized form through the field dependence of its internal relations.
+
+This establishes a conditional mathematical pathway from relational energy to magnetic moment.
+
+The neutron supplies the measured quantities against which that pathway can be developed and tested.
+
+**The central proposition of the model remains unchanged: potential is carried by fundamental units, energy is manifested through their relations, and measurable properties arise through organization.**
+
+In this interpretation, the neutron represents a first measurable organized form and a generator of the constituents involved in the subsequent formation of atomic matter.
+
+The mathematical framework is now connected to a specific particle, measurable constants and explicit quantitative targets.
+
+---
+
+## Sources and related references
+
+**[A]** [Mathematical Model of Potential, Relations, Energy and Organization](https://github.com/MeasurableScience/measurable-science/blob/main/References/A-mathematical-model.md) — foundational relational construction.
+
+**[8]** [Neutron](https://github.com/MeasurableScience/measurable-science/blob/main/References/008-neutron.md) — neutron structure, mass, charge and decay.
+
+**[CODATA 2022]** National Institute of Standards and Technology (NIST), *CODATA Recommended Values of the Fundamental Physical Constants*:
+
+- [Neutron magnetic moment](https://physics.nist.gov/cgi-bin/cuu/Value?munn)
+- [Neutron magnetic moment in nuclear magnetons](https://physics.nist.gov/cgi-bin/cuu/Value?munsmun)
+- [Neutron gyromagnetic ratio](https://physics.nist.gov/cgi-bin/cuu/Value?gammanbar)
+- [2022 CODATA constants](https://physics.nist.gov/cuu/pdf/wall_2022.pdf)
+

@@ -1,66 +1,66 @@
-# Reference [C] — Formation of the Atom: Magnetic Relations, Spiral Electric Current, Electromagnetic Feedback, and Photon Emission
+
+
+# Reference [C] — Formation of the Atom: Magnetic Relations, Spiral Electric Current, Electromagnetic Feedback and Photon Emission
 
 ## 1. Purpose and scope
 
-This reference examines the proposed sequence:
+Reference [A] introduces a mathematical framework in which fundamental units carry potential, while energy becomes manifested through their relations.
 
-**Magnetism → spiral organization of electric current → electromagnetic feedback → stable atomic form → photon emission.**
+Reference [B] connects organized relational energy with the measured mass, magnetic moment and precession of the neutron.
 
-The central question is not whether a completed hydrogen atom continuously contains an inward or outward radial electric current.
+Reference [C] examines the next proposed stage: the formation of the atom.
 
-Instead, the question is:
+In the author's model, the neutron is a generator of matter, while the atom represents the first complete form of matter.
 
-**Can a transient spiral current arise during the formation of a bound proton–electron system, and can electromagnetic feedback contribute to the transition into a stable atomic state?**
+The proposed sequence is:
 
-The distinction between a formation process and its final state is essential.
+**MAGNETISM → MOTION → SPIRAL ORGANIZATION → ELECTROMAGNETIC INDUCTION → ELECTRIC CURRENT → ELECTROMAGNETIC FEEDBACK → ORGANIZED ATOMIC FORM → PHOTON EMISSION.**
 
-A transient radial current may exist during a transformation without remaining present in the final stationary state. However, its existence must be derived from a dynamical model rather than assumed.
+The central question is:
 
-Three categories of statements are kept separate throughout this reference:
+**Can magnetic interactions contribute to the formation of a transient spiral electric current during proton–electron binding, and can electromagnetic feedback participate in the emergence of an organized atomic state?**
 
-* **MEASUREMENT:** An experimentally established quantity or phenomenon.
-* **MATHEMATICAL RESULT:** A conclusion derived from specified equations and assumptions.
-* **HYPOTHESIS:** A proposed physical mechanism not yet established by measurement or calculation.
+This reference examines that possibility through established electromagnetic equations, quantum current density, measured hydrogen properties and energy conservation.
 
-The proposed *electromagnetic shell* is treated as a model concept. It must not be confused with an experimentally demonstrated, separate plasma membrane surrounding the atom.
+The proposed electromagnetic shell is treated as an organizational concept within the model, not as a separately established physical membrane surrounding the atom.
 
 ---
 
-## 2. Experimental quantities
+## 2. Measured properties of the proton–electron system
 
 ### 2.1 Fundamental constants
 
-The following rounded values are based on the CODATA 2022 recommended constants.
+The following values are based on the CODATA 2022 recommended constants.
 
-| Quantity                            | Symbol    | Value                                |
-| ----------------------------------- | --------- | ------------------------------------ |
-| Elementary charge                   | e         | 1.602176634 × 10^-19 C               |
-| Electron mass                       | m_e       | 9.1093837139 × 10^-31 kg             |
-| Proton mass                         | m_p       | 1.67262192595 × 10^-27 kg            |
-| Electron magnetic moment, magnitude | abs(mu_e) | 9.2847646917 × 10^-24 J/T            |
-| Proton magnetic moment              | mu_p      | 1.41060679736 × 10^-26 J/T           |
-| Planck constant                     | h         | 6.62607015 × 10^-34 J·s              |
-| Reduced Planck constant             | hbar      | h/(2*pi)                             |
-| Speed of light                      | c         | 299792458 m/s                        |
-| Bohr radius                         | a_0       | approximately 5.291772105 × 10^-11 m |
+| Quantity | Symbol | Value |
+|---|---|---|
+| Elementary charge | e | 1.602176634 × 10⁻¹⁹ C |
+| Electron mass | m_e | 9.1093837139 × 10⁻³¹ kg |
+| Proton mass | m_p | 1.67262192595 × 10⁻²⁷ kg |
+| Electron magnetic moment, magnitude | abs(μ_e) | 9.2847646917 × 10⁻²⁴ J/T |
+| Proton magnetic moment | μ_p | 1.41060679736 × 10⁻²⁶ J/T |
+| Planck constant | h | 6.62607015 × 10⁻³⁴ J·s |
+| Reduced Planck constant | ħ | h/(2π) |
+| Speed of light | c | 299792458 m/s |
+| Bohr radius | a₀ | approximately 5.291772105 × 10⁻¹¹ m |
 
-**Source:**
+Source: [NIST — CODATA Recommended Values](https://physics.nist.gov/constants)
 
-NIST — CODATA Recommended Values of the Fundamental Physical Constants: 2022
+The proton and electron possess opposite electric charges:
 
-https://physics.nist.gov/constants
+```text
+q_p = +e
 
-https://physics.nist.gov/cuu/pdf/all.pdf
+q_e = -e
+```
 
-**MEASUREMENT:** Both the proton and the electron possess magnetic moments.
+Both particles also possess magnetic moments.
 
-Their magnetic moments can interact, and the interaction affects the energy levels of hydrogen.
-
-This does not establish that the magnetic interaction is the original source of electric charge.
+Their electric and magnetic properties allow them to participate in electromagnetic interactions.
 
 ### 2.2 Center of mass
 
-For proton position r_p and electron position r_e:
+For proton position `r_p` and electron position `r_e`, define:
 
 ```text
 R = (m_p*r_p + m_e*r_e)/(m_p + m_e)
@@ -71,12 +71,10 @@ r = r_e - r_p
 The reduced mass is:
 
 ```text
-mu = (m_p*m_e)/(m_p + m_e)
+mu_red = (m_p*m_e)/(m_p + m_e)
 ```
 
-The relative coordinate r describes the separation of the particles.
-
-Their individual positions relative to the center of mass are:
+Their individual coordinates relative to the center of mass satisfy:
 
 ```text
 r_e - R = (m_p/(m_p + m_e))*r
@@ -84,34 +82,33 @@ r_e - R = (m_p/(m_p + m_e))*r
 r_p - R = -(m_e/(m_p + m_e))*r
 ```
 
-**MATHEMATICAL RESULT:** The proton and electron share a center of mass, but their distances from it are unequal.
+Thus, proton and electron motion can be described through a common center of mass and a relative coordinate.
 
-A spiral organization of their relative motion would therefore not imply two geometrically identical spirals.
+Because their masses differ greatly, any proposed spiral organization of their relative motion does not imply two identical geometrical spirals.
 
 ---
 
-## 3. Magnetic relation between proton and electron
+## 3. Magnetic interaction between proton and electron
 
-### 3.1 Classical magnetic dipole interaction
+### 3.1 Magnetic dipole interaction
 
-At separations where the point-dipole approximation is appropriate, the magnetic interaction energy is:
+In the classical point-dipole approximation, the magnetic interaction energy is:
 
 ```text
 U_mag = (mu_0/(4*pi*r^3)) *
-        [mu_p·mu_e
-        - 3*(mu_p·r_hat)*(mu_e·r_hat)]
+        [mu_p·mu_e - 3*(mu_p·r_hat)*(mu_e·r_hat)]
 ```
 
 Here:
 
-* mu_p and mu_e are magnetic-moment vectors.
-* r is their separation.
-* r_hat is the unit vector along their separation.
-* mu_0 is the vacuum permeability.
+- `mu_p` and `mu_e` are magnetic-moment vectors.
+- `r` is their separation.
+- `r_hat` is the unit vector along their separation.
+- `mu_0` is the vacuum permeability.
 
-The interaction depends on distance and relative orientation.
+The interaction depends on both separation and orientation.
 
-For fixed orientations:
+For fixed orientations, its radial force component is:
 
 ```text
 F_r = -dU_mag/dr
@@ -119,15 +116,23 @@ F_r = -dU_mag/dr
 F_r = 3*U_mag/r
 ```
 
-Depending on the configuration, the radial magnetic force may be attractive or repulsive.
+The sign and magnitude depend on the configuration of the magnetic moments.
 
-**MATHEMATICAL RESULT:** A changing magnetic relation can change the interaction energy and the direction or magnitude of the magnetic force.
+This provides a mathematical example of an interaction whose response changes with relative orientation.
 
-This establishes a possible radial *force component*, not necessarily a radial *electric-current component*.
+In Reference [A], the proposed minimal phase-dependent relational interaction is:
 
-A force and a current are different physical quantities.
+```text
+U_ij = -K_ij*cos(phi_ij)
 
-### 3.2 Order-of-magnitude comparison
+K_ij = G(P_i, P_j)
+```
+
+Both expressions describe orientation-dependent energy, although their full mathematical structures and physical interpretations differ.
+
+The comparison supports the use of angular interactions in the relational model without identifying fundamental units with conventional magnetic dipoles.
+
+### 3.2 Relative strength of magnetic and electric forces
 
 At the characteristic hydrogen distance:
 
@@ -135,14 +140,14 @@ At the characteristic hydrogen distance:
 r = a_0
 ```
 
-Define the magnetic interaction scale:
+the classical magnetic dipole energy scale is:
 
 ```text
 U_mag,scale = (mu_0/(4*pi)) *
               abs(mu_p*mu_e)/a_0^3
 ```
 
-Using the constants above:
+Numerically:
 
 ```text
 U_mag,scale ≈ 8.84 × 10^-26 J
@@ -172,27 +177,31 @@ Therefore:
 F_mag,scale/F_C ≈ 6.08 × 10^-8
 ```
 
-The magnetic force scale is approximately 16 million times smaller than the electrostatic force at this distance.
+At this distance, the classical magnetic dipole force scale is approximately 16 million times smaller than the electrostatic force.
 
-**IMPORTANT LIMITATION:** This comparison uses classical point-dipole approximations. It is not a complete calculation of the quantum magnetic interaction in hydrogen. In particular, the hyperfine interaction includes a contact contribution that cannot be represented by this simple estimate alone.
+This comparison establishes an important quantitative condition for the proposed model.
 
-The calculation nevertheless establishes that the classical magnetic dipole force cannot be substituted for the dominant electrostatic interaction without introducing additional, testable physics.
+If magnetic interactions play a decisive organizational role during atomic formation, that role must be demonstrated through the system's dynamics rather than assumed from the existence of magnetic moments alone.
+
+The comparison is an order-of-magnitude estimate. A complete quantum treatment must include the relevant spin interactions, including the contact contribution to hydrogen hyperfine structure.
 
 ---
 
-## 4. Direct experimental evidence of the magnetic relation
+## 4. Experimental evidence of magnetic interaction
 
 ### 4.1 Hydrogen hyperfine transition
 
-The ground state of hydrogen contains two hyperfine energy configurations associated with the coupled electron and proton spins.
+The ground state of hydrogen contains two hyperfine configurations associated with the coupled electron and proton spins.
 
-Their energy separation corresponds to the famous 21-centimeter transition:
+Their energy separation corresponds to the approximately 21-centimeter transition.
+
+The measured frequency is approximately:
 
 ```text
-f_H ≈ 1,420,405,751.8 Hz
+f_H = 1,420,405,751.8 Hz
 ```
 
-The energy difference is:
+The corresponding energy difference is:
 
 ```text
 Delta_E = h*f_H
@@ -202,7 +211,7 @@ Delta_E ≈ 9.41 × 10^-25 J
 Delta_E ≈ 5.87 × 10^-6 eV
 ```
 
-The corresponding period is:
+The associated period is:
 
 ```text
 T = 1/f_H
@@ -210,46 +219,24 @@ T = 1/f_H
 T ≈ 7.04 × 10^-10 s
 ```
 
-**MEASUREMENT:** The magnetic interaction between the electron and proton is reflected in a precisely measurable energy separation.
+This establishes a measurable connection between the magnetic properties of the proton–electron system and its energy levels.
 
-**Source:**
+The transition frequency represents the frequency associated with the energy difference. It is not automatically the mechanical rotation frequency of either particle or the frequency of a spiral current.
 
-NIST — Measurement of the Unperturbed Hydrogen Hyperfine Transition Frequency
+For the proposed model, its importance is that an electrically neutral atom possesses measurable energy differences associated with the magnetic organization of its constituents.
 
-https://tf.nist.gov/general/pdf/2060.pdf
+Sources:
 
-NRAO — Essential Radio Astronomy, Hydrogen 21-cm Line
-
-https://www.cv.nrao.edu/~sransom/web/Ch7.html
-
-### 4.2 What the frequency does and does not establish
-
-The hyperfine frequency is the frequency corresponding to an energy difference.
-
-It is not automatically:
-
-* The mechanical rotation frequency of the proton.
-* The mechanical rotation frequency of the electron.
-* The frequency of a spiral current.
-* The rate at which an atomic shell is formed.
-
-A coherent superposition of hyperfine states can possess a time-dependent relative phase:
-
-```text
-Delta_phi(t) = Delta_phi(0) - Delta_E*t/hbar
-```
-
-However, the existence of a changing phase does not by itself prove the existence of radial charge transport.
-
-The charge-current density must be calculated separately.
+- [NIST — Hydrogen Hyperfine Transition](https://tf.nist.gov/general/pdf/2060.pdf)
+- [NRAO — Hydrogen 21-cm Line](https://www.cv.nrao.edu/~sransom/web/Ch7.html)
 
 ---
 
-## 5. From changing magnetism to an electric field
+## 5. Electromagnetic induction and the origin of current
 
 ### 5.1 Faraday's law
 
-Maxwell–Faraday induction is expressed by:
+Maxwell–Faraday induction is described by:
 
 ```text
 curl(E) = -dB/dt
@@ -261,85 +248,50 @@ Its integral form is:
 closed_integral(E·dl) = -dPhi_B/dt
 ```
 
-where Phi_B is the magnetic flux through a chosen surface.
+where `Phi_B` represents magnetic flux through the chosen surface.
 
-**MATHEMATICAL RESULT:** A time-varying magnetic field can produce a circulating electric field.
+A time-dependent magnetic field can therefore generate a circulating electric field.
 
-This is a confirmed physical mechanism.
+The electromagnetic sequence is:
 
-However, three distinct quantities must not be confused:
+**CHANGING MAGNETIC FIELD → INDUCED ELECTRIC FIELD → POSSIBLE CHARGE TRANSPORT.**
 
-```text
-Magnetic-field variation
-          |
-          v
-Induced electric field
-          |
-          v
-Possible charge transport
-```
+The final step depends on the presence and response of charged particles.
 
-The first step follows from Maxwell's equations.
+In the proposed atomic formation process, the relevant charges already exist: the proton and electron.
 
-The second requires a physical system containing charged degrees of freedom and a dynamical response.
+### 5.2 Electromagnetic force
 
-A changing magnetic field does not automatically create new electric charge.
-
-### 5.2 Charged particles and electromagnetic force
-
-The proton and electron already possess opposite electric charges.
-
-Their interaction with electromagnetic fields can be described, in the classical limit, by the Lorentz force:
+In the classical approximation, the force on a charged particle is:
 
 ```text
 F = q*(E + v × B)
 ```
 
-For the proton:
+An electromagnetic field can change the particle's motion.
 
-```text
-q_p = +e
-```
+Changing motion can alter the corresponding electric current, which in turn contributes to electromagnetic fields.
 
-For the electron:
+The author's proposed mechanism uses this mutual dependence as a possible route toward an organized atomic form.
 
-```text
-q_e = -e
-```
-
-The force can alter the particles' motion and therefore their associated electric current.
-
-**HYPOTHESIS:** During the formation of a bound atom, changes in the magnetic relation may contribute to a transient organization of electric current.
-
-The proposed organization must be tested against the full electromagnetic interaction, including the dominant electric coupling.
-
-**Source:**
-
-OpenStax — Maxwell's Equations and Electromagnetic Waves
-
-https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves
+The next question is whether the resulting current can possess spiral geometry.
 
 ---
 
-## 6. What exactly is a spiral electric current?
+## 6. Mathematical construction of a spiral electric current
 
 ### 6.1 Current density
 
-For a classical distribution of charge:
+For a classical charge distribution, electric current density is:
 
 ```text
 J = rho*v
 ```
 
-where rho is charge density and v is velocity.
+where:
 
-For a quantum particle, charge-current density is obtained from its wavefunction and electromagnetic coupling.
-
-A current is a spatial flow of charge. It does not require that an electron be represented as a tiny classical sphere following a sharply defined trajectory.
-
-This distinction is important for the proposed atomic model.
-
-### 6.2 Spiral geometry
+- `rho` is electric charge density.
+- `v` is velocity.
 
 In cylindrical coordinates:
 
@@ -347,95 +299,123 @@ In cylindrical coordinates:
 J = J_r*r_hat + J_phi*phi_hat + J_z*z_hat
 ```
 
-A current with nonzero radial and azimuthal components can have spiral flow lines in a plane.
+The components describe:
 
-For a planar flow:
+- `J_r`: radial transport.
+- `J_phi`: azimuthal or circular transport.
+- `J_z`: axial transport.
+
+A planar flow with nonzero radial and azimuthal components can possess spiral streamlines.
+
+### 6.2 Derivation of spiral geometry
+
+For a planar current field, the streamline equation is:
 
 ```text
 dr/dphi = r*(J_r/J_phi)
 ```
 
-For example, if:
+Suppose that, in the region considered:
 
 ```text
 J_r/J_phi = k
 ```
 
-with constant k, then:
+where `k` is constant.
+
+Then:
 
 ```text
 dr/dphi = k*r
 ```
 
-and integration gives:
+Separating variables:
+
+```text
+dr/r = k*dphi
+```
+
+Integration gives:
+
+```text
+ln(r/r_0) = k*(phi - phi_0)
+```
+
+Therefore:
 
 ```text
 r(phi) = r_0*exp(k*(phi - phi_0))
 ```
 
-This is a logarithmic spiral.
+**This is the equation of a logarithmic spiral.**
 
-**MATHEMATICAL RESULT:** A radial current component combined with an azimuthal current component can produce a spiral current pattern.
+The result establishes that a current with an appropriate relationship between its radial and azimuthal components can form a spiral pattern.
 
-**LIMITATION:** This is a geometrical result. It does not demonstrate that the proton–electron interaction generates the required components.
+The parameter `k` determines the character of that spiral:
 
-### 6.3 Charge conservation
+- `k > 0`: radius increases with increasing angle.
+- `k < 0`: radius decreases with increasing angle.
+- `k = 0`: circular flow with constant radius.
 
-Any proposed current must satisfy:
+This mathematical result gives a precise meaning to spiral current organization.
+
+It does not require every microscopic charge carrier to follow a sharply defined classical trajectory. The spiral may describe the streamlines of a collective current field.
+
+### 6.3 Conservation of charge
+
+Any physically acceptable electric current must satisfy the continuity equation:
 
 ```text
 d(rho)/dt + div(J) = 0
 ```
 
-This is the continuity equation.
+The equation expresses conservation of electric charge.
 
-For a stationary, spherically symmetric bound charge distribution, a persistent net radial flux through a closed sphere is incompatible with a constant enclosed charge.
+A stationary bound state cannot sustain an uncompensated net radial charge flux through every enclosing surface.
 
-A transient radial current, however, is not excluded.
+However, a transient current during the formation of a bound state can contain radial components while the charge distribution changes.
 
-It must be accompanied by an appropriate time dependence of the charge distribution or by compensating local flows.
+This distinction is central:
 
-**This distinction is central to the proposed model: the current during formation need not equal the current in the final stationary state.**
+**THE CURRENT DURING FORMATION NEED NOT BE IDENTICAL TO THE CURRENT OF THE FINAL ORGANIZED STATE.**
 
 ---
 
-## 7. Quantum test: the final state versus the formation process
+## 7. Quantum currents during atomic transformation
 
 ### 7.1 Stationary hydrogen ground state
 
-The spatial wavefunction of the hydrogen 1s state is approximately:
+In a nonrelativistic approximation, the spatial wavefunction of the hydrogen ground state is:
 
 ```text
 psi_1s(r) = exp(-r/a)/(sqrt(pi)*a^(3/2))
 ```
 
-where a includes the reduced-mass correction.
+where `a` includes the reduced-mass correction.
 
 The orbital probability-current density is:
 
 ```text
-j = (hbar/mu)*Im(psi*grad(psi))
+j = (hbar/mu_red)*Im[psi_conj*grad(psi)]
 ```
 
-For a real stationary 1s spatial wavefunction:
+Here `psi_conj` denotes the complex conjugate of the wavefunction.
+
+For a real stationary `1s` spatial wavefunction:
 
 ```text
 j_orbital = 0
 ```
 
-The associated orbital charge current is also zero.
+The orbital probability current therefore vanishes in this representation.
 
-Spin-dependent magnetization currents are a separate contribution and can possess azimuthal structure.
+Spin-related magnetization currents are a separate contribution.
 
-**MATHEMATICAL RESULT:** A stationary 1s spatial wavefunction does not contain a persistent radial orbital probability current.
+The absence of a radial orbital current in the stationary ground state does not establish that radial currents are absent during the earlier formation process.
 
-**CRITICAL INTERPRETATION:** This does not establish that radial currents are absent during the earlier, time-dependent process of forming the atom.
+### 7.2 Transient current from a quantum superposition
 
-A stationary state and a transition into that state are different physical situations.
-
-### 7.2 A concrete example of transient quantum current
-
-Consider a coherent superposition of two spatial hydrogen states:
+Consider a coherent superposition of two hydrogen states:
 
 ```text
 Psi(r,t) =
@@ -443,70 +423,42 @@ Psi(r,t) =
   + b*psi_2p(r)*exp(-i*E_2*t/hbar)
 ```
 
-Here a and b are complex amplitudes.
+The coefficients `a` and `b` are complex amplitudes.
 
-For simplicity, choose real spatial orbitals and temporarily omit spin and vector-potential contributions.
+For simplicity, take real spatial orbitals and omit spin and vector-potential contributions in this example.
 
 The probability-current density is:
 
 ```text
-j = (hbar/mu)*Im(Psi*grad(Psi))
+j = (hbar/mu_red)*Im[Psi_conj*grad(Psi)]
 ```
 
-The individual stationary orbitals contribute no current in this simplified real-orbital representation.
-
-The interference terms give:
+The interference contribution becomes:
 
 ```text
-j = (hbar/mu)*
-    Im[a_conj*b*exp(-i*(E_2-E_1)*t/hbar)]
-    *
+j = (hbar/mu_red) *
+    Im[a_conj*b*exp(-i*(E_2-E_1)*t/hbar)] *
     [psi_1s*grad(psi_2p)
      - psi_2p*grad(psi_1s)]
 ```
 
-This expression is generally nonzero.
+This expression can be nonzero.
 
-Because the spatial orbitals have different angular and radial dependence, the interference current can contain local radial and angular components.
+Because the two spatial orbitals have different radial and angular dependences, their interference can generate local current components absent from the individual stationary states.
 
-**MATHEMATICAL RESULT:** Time-dependent quantum superpositions can produce local charge transport that is absent in their individual stationary components.
+**MATHEMATICAL RESULT: A time-dependent quantum superposition can produce local current during a transformation even when its individual stationary components carry no orbital current in the chosen representation.**
 
-This provides a concrete demonstration that the absence of a radial current in the final 1s state does not prohibit radial current during a transition.
+This example demonstrates the mathematical possibility of transient current.
 
-**LIMITATION:** A 1s–2p superposition is not itself a calculation of proton–electron capture. Nor does this example demonstrate that the current has the particular spiral geometry predicted by the model.
-
-The next step must therefore address the actual formation dynamics.
+It does not independently establish the complete spiral geometry or describe the full process of proton–electron capture.
 
 ---
 
-## 8. The proposed spiral during atom formation
+## 8. The proposed spiral during atomic formation
 
-The model predicts the following sequence:
+The author proposes that, during the organization of a proton–electron system, changing electromagnetic relations can generate a transient current containing both radial and azimuthal components.
 
-```text
-Changing magnetic relation
-            |
-            v
-Time-dependent electromagnetic interaction
-            |
-            v
-Radial and azimuthal current components
-            |
-            v
-Transient spiral organization
-            |
-            v
-Electromagnetic feedback
-            |
-            v
-Bound atomic state
-```
-
-The third step is the decisive unverified prediction.
-
-### 8.1 Formation-stage hypothesis
-
-Let the electric current during formation be:
+Let:
 
 ```text
 J(r,t) = J_r(r,t)*r_hat
@@ -514,7 +466,7 @@ J(r,t) = J_r(r,t)*r_hat
        + J_z(r,t)*z_hat
 ```
 
-The model predicts that there is a finite time interval during which:
+A spiral organization requires, over an appropriate region:
 
 ```text
 J_r != 0
@@ -522,56 +474,69 @@ J_r != 0
 J_phi != 0
 ```
 
-and their spatial organization produces a spiral flow pattern.
+together with a spatial relationship that produces spiral streamlines.
 
-It further predicts that the radial component may diminish as the system approaches a stationary bound state.
+The proposed sequence is:
 
-These statements are **HYPOTHESES**, not consequences already derived from the known magnetic moments.
+**MAGNETIC INTERACTION → CHANGING MOTION → RADIAL AND AZIMUTHAL CURRENT → SPIRAL ORGANIZATION.**
 
-### 8.2 The role of relative phase
+The hypothesis concerns the process of forming the atom, not the requirement that the completed atom sustain a permanent inward spiral current.
 
-A changing phase may alter interference terms in a quantum current.
+The mathematical construction in Section 6 demonstrates how spiral current geometry can arise from the relevant current components.
 
-However, not every phase difference is physically observable.
+The quantum example in Section 7 demonstrates that transient currents are compatible with time-dependent quantum states.
 
-A global phase has no observable effect. A relative phase between coherently superposed states can affect observables.
+Together, these results establish a mathematical framework within which the proposed formation process can be examined.
 
-The model must specify:
+### 8.1 The role of relative phase
 
-1. Which physical states possess the relative phase.
-2. How the magnetic interaction changes that phase.
-3. How the changing phase enters the spatial charge-current density.
-4. Whether the resulting current possesses both radial and azimuthal components.
+In quantum mechanics, observable interference effects depend on physically relevant relative phases between states.
 
-Without these steps, a changing magnetic phase cannot be identified with a spiral current.
+A global phase has no observable consequence, but a relative phase between coherent components can influence the current density.
 
-### 8.3 Why the magnetic interaction must be isolated
+This offers a possible connection to the phase-dependent relational construction introduced in Reference [A].
 
-A calculation showing spiral motion under the complete electromagnetic force would not, by itself, establish that magnetism initiated the process.
-
-To test that specific hypothesis, the magnetic contribution must be separated from the electric contribution.
-
-One possible comparison is:
+For that connection to become quantitative, the model must relate:
 
 ```text
-Model A:
-Electric interaction + radiation
-
-Model B:
-Electric interaction + magnetic dipole/spin coupling + radiation
+Internal phase relation
+          ↓
+Electromagnetic interaction
+          ↓
+Relative phase of physical states
+          ↓
+Charge-current distribution
 ```
 
-The difference between their predicted current fields can reveal the effect of magnetic coupling.
+The proposed spiral requires the resulting current field to possess a suitable combination of radial and azimuthal components.
 
-Both models must respect conservation laws and the physical constraints of their approximations.
+### 8.2 Distinguishing magnetic and electric contributions
+
+The proton and electron interact through both electric and magnetic effects.
+
+Their dominant long-range binding interaction is electric.
+
+To examine the proposed organizational role of magnetism, a numerical calculation can compare:
+
+```text
+Case 1:
+Electric interaction and radiation
+
+Case 2:
+Electric interaction, magnetic spin coupling and radiation
+```
+
+The difference between the resulting current distributions can isolate the contribution of magnetic coupling within the chosen physical approximation.
+
+This provides a practical test of the proposed mechanism.
 
 ---
 
-## 9. Electromagnetic feedback
+## 9. Electromagnetic feedback and organized form
 
 ### 9.1 Maxwell–Ampère equation
 
-The magnetic field is related to current and the changing electric field:
+The relationship between electric current and magnetic field is described by:
 
 ```text
 curl(B) = mu_0*J
@@ -584,69 +549,72 @@ Together with Faraday's law:
 curl(E) = -dB/dt
 ```
 
-this establishes mutual electromagnetic coupling.
+these equations describe a coupled electromagnetic system.
 
-A changing current can alter the magnetic field, and the resulting fields can act back on charged matter.
+A changing current affects the magnetic field.
 
-**MATHEMATICAL RESULT:** Electromagnetic feedback is permitted by the established field equations.
+A changing magnetic field can induce an electric field.
 
-But the existence of feedback does not guarantee that the resulting configuration is stable.
+The resulting electromagnetic fields can act back on charged matter.
+
+Thus:
+
+**MOTION CHANGES THE FIELD, AND THE FIELD ACTS ON MOTION.**
+
+This is the physical basis for examining electromagnetic feedback during the proposed organization of the atom.
 
 ### 9.2 Electromagnetic energy
 
-The classical electromagnetic energy density is:
+The energy density of the classical electromagnetic field is:
 
 ```text
 u_EM = 0.5*epsilon_0*E^2
      + B^2/(2*mu_0)
 ```
 
-The electromagnetic energy flux is described by the Poynting vector:
+The electromagnetic energy flux is represented by the Poynting vector:
 
 ```text
 S = (1/mu_0)*(E × B)
 ```
 
-Poynting's theorem is:
+Poynting's theorem states:
 
 ```text
 d(u_EM)/dt + div(S) = -J·E
 ```
 
-This equation relates:
+The equation relates:
 
-* Changes in electromagnetic-field energy.
-* Energy transported by the field.
-* Energy exchanged between the field and charged matter.
+- Changes in electromagnetic field energy.
+- Energy transported by electromagnetic fields.
+- Energy exchanged between fields and charged matter.
 
-**MATHEMATICAL RESULT:** Electromagnetic fields and charged matter can exchange energy.
+It therefore supplies a quantitative framework for analyzing energy transfer during the proposed formation process.
 
-### 9.3 Feedback and stability
+### 9.3 Electromagnetic organization
 
-The proposed electromagnetic shell is a hypothesis about the organization of the final atomic form.
+The author proposes that an appropriately organized electromagnetic feedback process can contribute to the formation of a stable atomic structure.
 
-To establish its physical validity, the model must provide:
+The proposed **electromagnetic shell** represents the resulting organization of relations.
 
-* A mathematical definition of the shell.
-* Its spatial charge and current distributions.
-* Its energy.
-* Its response to perturbations.
-* A stability criterion.
-* At least one observable prediction that differs from standard atomic physics.
+It is not necessary for the final organized form to preserve every component of the motion involved in its formation.
 
-A self-consistent field configuration is not automatically a stable one.
+In particular, the radial current associated with the transition may diminish or disappear as the system approaches a stationary bound state.
 
-In established quantum mechanics, the stability of hydrogen is described by its bound-state energy spectrum and quantum dynamics.
+The proposed shell must correspond to a well-defined charge and current configuration whose properties can be examined mathematically.
 
-The proposed feedback mechanism must reproduce those observations before it can be considered an alternative explanation.
+A self-consistent electromagnetic configuration is not automatically stable. Stability requires examining how the configuration responds to disturbances and whether it possesses an appropriate bound-state energy structure.
+
+The known hydrogen spectrum provides the experimental target for such an examination.
 
 ---
 
-## 10. Formation of hydrogen and photon emission
+## 10. Photon emission and the formation of hydrogen
 
 ### 10.1 Radiative recombination
 
-An electron and proton can form neutral hydrogen through radiative recombination:
+A proton and electron can form a hydrogen atom through radiative recombination:
 
 ```text
 p + e^- -> H + gamma
@@ -654,19 +622,9 @@ p + e^- -> H + gamma
 
 The photon carries away energy and momentum.
 
-This is an established atomic process.
+This allows the system to make a transition from an unbound configuration to a bound atomic state while conserving total energy and momentum.
 
-**MEASUREMENT:** Hydrogen has a discrete energy spectrum, and transitions involving photon emission and absorption are observed.
-
-**Sources:**
-
-NIST — Atomic Data for Hydrogen
-
-https://www.physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm
-
-NIST — Atomic Spectra Database
-
-https://physics.nist.gov/asd
+The process is experimentally established.
 
 ### 10.2 Energy conservation
 
@@ -675,9 +633,9 @@ Let:
 ```text
 K_i = initial relative kinetic energy
 
-E_bind = binding energy of the final state
+E_bind = binding energy of the final atomic state
 
-E_recoil = recoil kinetic energy of the hydrogen atom
+E_recoil = recoil kinetic energy of the atom
 ```
 
 Then, in the initial center-of-mass frame and neglecting small corrections:
@@ -686,130 +644,83 @@ Then, in the initial center-of-mass frame and neglecting small corrections:
 E_gamma = K_i + E_bind - E_recoil
 ```
 
-For capture into the hydrogen ground state:
+For formation of the hydrogen ground state:
 
 ```text
 E_bind ≈ 13.5984 eV
 ```
 
-For negligible initial relative kinetic energy, the emitted photon energy is close to the ground-state binding energy, with a small recoil correction.
+If the initial relative kinetic energy is small, the emitted photon energy is close to the binding energy, with a small recoil correction.
 
-However, the capture probability depends on the available initial and final states and the relevant transition selection rules.
+The exact emission energy depends on the initial and final states.
 
-The reaction equation is an energy-accounting description, not a claim that every electron–proton encounter produces a hydrogen atom.
+### 10.3 Interpretation within the proposed model
 
-### 10.3 Photon emission as a signature of transformation
+The author interprets photon emission as a possible measurable manifestation of the transition into a newly organized form.
 
-The model proposes:
+The proposed sequence is:
 
-**The photon is the observable manifestation of successful transformation into a stable electromagnetic form.**
+**CHANGING RELATIONS → ENERGY REDISTRIBUTION → ORGANIZED ATOMIC STATE + EMITTED PHOTON.**
 
-This is a model interpretation.
+In the language of the model:
 
-The established physical result is narrower:
+**THE FLASH MARKS THE TRANSFORMATION. THE ORGANIZATION THAT REMAINS REPRESENTS THE FORM.**
 
-**Radiative capture and atomic transitions can produce photons whose energies correspond to differences between initial and final states.**
+The observed photon carries energy released during the transition.
 
-Photon emission does not, by itself, prove the formation of a separate electromagnetic shell.
-
-The model's proposed shell must be independently defined and tested.
+The proposed electromagnetic shell is an additional interpretation of the resulting atomic organization and requires its own mathematical description.
 
 ---
 
-## 11. Does the spiral disappear after stabilization?
+## 11. Transformation and the recurrence of fundamental constituents
 
-This question requires a precise distinction.
+The author's proposed organizational sequence is:
 
-The model does not require:
+**NEUTRINO → NEUTRON → ATOM.**
 
-```text
-J_r(final) = J_r(formation)
-```
+Known particle transformations provide a useful comparison.
 
-Instead, it proposes:
+### 11.1 Electron capture
 
-```text
-During formation:
-J_r(t) may be nonzero.
-
-After stabilization:
-The stationary state may have zero net radial current.
-```
-
-This is mathematically compatible with the distinction between transient and stationary quantum states.
-
-But compatibility is not proof.
-
-**MATHEMATICAL RESULT:** Transient charge currents can exist in time-dependent quantum states even when the final stationary state has no radial orbital current.
-
-**HYPOTHESIS:** A particular spiral current is responsible for the organization and stabilization of the hydrogen atom.
-
-The hypothesis remains unconfirmed until the relevant current distribution is obtained from a dynamical calculation.
-
----
-
-## 12. Electron capture, neutron decay, and the proposed transformation chain
-
-### 12.1 Electron capture
-
-In an energetically allowed nuclear electron-capture process:
+In an energetically allowed nuclear electron-capture process, the local weak-interaction transformation is:
 
 ```text
 p + e^- -> n + nu_e
 ```
 
-This equation represents the local weak-interaction conversion of a proton and electron into a neutron and an electron neutrino.
+In an actual nucleus, the process involves a parent nucleus transforming into a daughter nucleus.
 
-In an actual nucleus, the complete reaction must include the parent and daughter nuclei, and energy conservation must be satisfied.
+The nuclear environment and the available energy determine whether electron capture can occur.
 
-An isolated, stationary proton cannot simply capture a free electron to produce a neutron and neutrino without sufficient available energy.
+Source: [11 — Electron Capture](https://github.com/MeasurableScience/measurable-science/blob/main/References/011-electron-capture.md)
 
-**Source:**
+### 11.2 Free-neutron beta decay
 
-[11] Electron Capture
-
-https://github.com/MeasurableScience/measurable-science/blob/main/References/011-electron-capture.md
-
-### 12.2 Free-neutron beta decay
-
-A free neutron can decay according to:
+A free neutron can undergo beta decay:
 
 ```text
 n -> p + e^- + anti_nu_e
 ```
 
-This process is experimentally established.
+This is an experimentally established weak-interaction process.
 
-The electron and antineutrino are produced through the weak interaction during the decay; they are not evidence that a neutron is a preassembled proton–electron–antineutrino system.
+The appearance of neutrinos and antineutrinos in these transformations is among the observations motivating the author's investigation of neutrino relations and matter organization.
 
-### 12.3 Interpretation of the proposed chain
+The known decay processes do not establish that a neutron is assembled from neutrinos or that atomic binding results from the specific spiral mechanism proposed here.
 
-The model proposes:
+Within the model, the reactions are examined as examples of how changing relations can correspond to different organized states and transformations.
 
-```text
-NEUTRINO -> NEUTRON -> ATOM
-```
-
-The known reactions do not establish this as a literal sequence of particle construction.
-
-In particular:
-
-* A neutron is not known to be constructed from a neutrino.
-* Free-neutron decay does not automatically create an atom.
-* The production of a proton and electron does provide particles that can subsequently participate in hydrogen formation.
-* Electron capture and neutron beta decay are weak-interaction processes, distinct from electromagnetic atomic binding.
-
-**HYPOTHESIS:** The recurrence of neutrinos and nucleons in these transformations may reflect a deeper organizational principle.
-
-This interpretation is not established by the reactions alone.
+**FORMATION AND DECAY ARE DIFFERENT OUTCOMES OF CHANGING ORGANIZATION.**
 
 ---
 
-## 13. Required numerical test of the proposed mechanism
+## 12. Quantitative test of the proposed spiral mechanism
 
-The decisive test must examine the formation process, not merely the completed atom.
+The mathematical description can be developed into a numerical test focused on the formation process.
 
-### 13.1 Initial state
+The test must examine whether the proposed current organization emerges from specified physical interactions.
+
+### 12.1 Initial conditions
 
 Specify an initially unbound proton–electron system with:
 
@@ -827,46 +738,42 @@ Initial orbital angular momentum: L_0
 Initial electromagnetic state: EM_0
 ```
 
-These are necessary initial conditions, not adjustable values to be selected after seeing the result.
+### 12.2 Dynamical model
 
-### 13.2 Physical model
-
-A first nonrelativistic quantum approximation may be written schematically as:
+A nonrelativistic quantum approximation can be written schematically as:
 
 ```text
 H = H_kinetic
   + H_Coulomb
   + H_spin_orbit
   + H_spin_spin
-  + H_other_relativistic_corrections
+  + H_other_corrections
   + H_radiation
 ```
 
-The electromagnetic interaction must be introduced consistently, avoiding double-counting magnetic terms already represented by the Hamiltonian.
+The terms must be introduced consistently to avoid counting the same interaction more than once.
 
-For radiative capture, the photon field must be included. A closed two-particle Schrödinger calculation cannot by itself represent spontaneous emission into the electromagnetic radiation field.
+The inclusion of radiation is necessary for modeling spontaneous photon emission during capture.
 
-### 13.3 Dynamical evolution
-
-The state evolves according to:
+The evolving quantum state satisfies:
 
 ```text
 i*hbar*dPsi/dt = H*Psi
 ```
 
-From the evolving state, calculate:
+From the evolving state, calculate the charge density and current density:
 
 ```text
-rho(r,t) = charge density
+rho(r,t)
 
-J(r,t) = charge-current density
+J(r,t)
 ```
 
-The current should include the appropriate orbital and spin contributions for the selected approximation.
+The current must include the appropriate orbital and spin contributions for the chosen approximation.
 
-### 13.4 Current decomposition
+### 12.3 Identifying spiral organization
 
-Calculate:
+Decompose the current:
 
 ```text
 J_r(r,t)
@@ -876,40 +783,40 @@ J_phi(r,t)
 J_z(r,t)
 ```
 
-Do not insert a spiral shape into the initial conditions or numerical algorithm unless it is explicitly being tested as a separate imposed-condition experiment.
-
 A useful local diagnostic is:
 
 ```text
 Q(r,t) = abs(J_r*J_phi)
 ```
 
-A nonzero Q identifies regions with simultaneous radial and azimuthal components.
+A nonzero value identifies regions containing simultaneous radial and azimuthal current components.
 
-However, **Q > 0 is not sufficient to prove a coherent spiral structure**. The current field must also be examined through its streamlines or integral curves, continuity, and time evolution.
-
-### 13.5 Magnetic contribution
-
-Run a controlled comparison:
+However:
 
 ```text
-Case 1:
-Reference electromagnetic model.
-
-Case 2:
-Same model with the relevant magnetic spin couplings
-included or varied consistently.
+Q > 0
 ```
 
-Then compare:
+does not by itself establish a coherent spiral.
+
+The current streamlines must also be examined.
+
+A genuine spiral structure should emerge from the calculated current field rather than being imposed through the initial conditions.
+
+### 12.4 Magnetic contribution
+
+Compare the calculated current with and without the selected magnetic spin interactions, while preserving the consistency of the approximation.
+
+Define:
 
 ```text
-Delta_J = J_case2 - J_case1
+Delta_J = J_with_magnetic_coupling
+        - J_reference
 ```
 
-The objective is to determine whether magnetic coupling produces a distinctive radial–azimuthal current organization.
+The result can show whether magnetic coupling produces a distinctive contribution to the radial–azimuthal current structure.
 
-### 13.6 Feedback and energy accounting
+### 12.5 Energy and photon emission
 
 Calculate:
 
@@ -921,158 +828,102 @@ E_field(t)
 E_radiation(t)
 ```
 
-Check energy conservation:
+The total energy balance must satisfy:
 
 ```text
 E_initial = E_final + E_emitted
 ```
 
-with all recoil and other relevant terms included.
+with recoil and other relevant contributions included.
 
-A proposed stable shell must correspond to a well-defined final state and satisfy the appropriate stability conditions.
+The emitted photon energy and its dependence on the initial state can then be compared with established hydrogen spectroscopy and recombination calculations.
 
-### 13.7 Photon prediction
-
-Determine:
-
-```text
-Photon energy
-
-Photon emission probability
-
-Angular distribution
-
-Polarization
-
-Dependence on initial spin configuration
-```
-
-A distinctive model prediction should be compared with established hydrogen recombination theory and experimental spectra.
-
-### 13.8 Falsification criteria
-
-The proposed mechanism would lack support if:
-
-1. No relevant spiral current emerges from the specified initial state.
-2. The apparent spiral exists only when imposed numerically.
-3. Magnetic coupling does not produce the predicted contribution.
-4. The proposed stable shell cannot satisfy conservation and stability requirements.
-5. Predicted photon energies or transition probabilities contradict established observations.
-
-A positive result would require more than finding a spiral-shaped plot. It would require a reproducible dynamical mechanism and agreement with measurements.
-
-**The program must not know the result.**
+A successful model should connect the current organization, electromagnetic energy transfer and final bound state within one consistent calculation.
 
 ---
 
-## 14. Evidence matrix
+## 13. Established results and proposed mechanisms
 
-| Statement                                                                       | Status               |
-| ------------------------------------------------------------------------------- | -------------------- |
-| Proton and electron have magnetic moments                                       | MEASUREMENT          |
-| Their magnetic interaction affects hydrogen energy levels                       | MEASUREMENT          |
-| Hydrogen exhibits the approximately 1420.4 MHz hyperfine transition             | MEASUREMENT          |
-| A changing magnetic field can induce an electric field                          | ESTABLISHED PHYSICS  |
-| Moving electric charge constitutes electric current                             | ESTABLISHED PHYSICS  |
-| Radial and azimuthal current components can form spiral flow lines              | MATHEMATICAL RESULT  |
-| Time-dependent quantum states can contain transient charge currents             | MATHEMATICAL RESULT  |
-| The final hydrogen 1s spatial state has zero radial orbital current             | MATHEMATICAL RESULT  |
-| Magnetic coupling generates a specific spiral current during hydrogen formation | UNTESTED HYPOTHESIS  |
-| Electromagnetic feedback can couple field dynamics and charge motion            | ESTABLISHED PHYSICS  |
-| The proposed feedback creates a separate stable electromagnetic shell           | UNTESTED HYPOTHESIS  |
-| Proton and electron can form hydrogen through radiative recombination           | ESTABLISHED PHYSICS  |
-| The emitted photon marks formation of the proposed shell                        | MODEL INTERPRETATION |
-| Electron capture and neutron beta decay occur                                   | MEASUREMENT          |
-| Neutrino → neutron → atom is a literal particle-construction chain              | NOT ESTABLISHED      |
+| Statement | Status |
+|---|---|
+| Proton and electron possess electric charges and magnetic moments | Measured |
+| Their magnetic interactions contribute to hydrogen hyperfine structure | Established |
+| Hydrogen exhibits the approximately 1420.4 MHz hyperfine transition | Measured |
+| A changing magnetic field induces an electric field | Established |
+| Moving electric charge produces current | Established |
+| Suitable radial and azimuthal current components can form spiral streamlines | Mathematical result |
+| Time-dependent quantum states can produce transient current | Mathematical result |
+| Magnetic coupling initiates the proposed spiral current during hydrogen formation | Model hypothesis |
+| Electromagnetic feedback contributes to the proposed atomic shell | Model hypothesis |
+| Proton–electron radiative recombination can emit a photon | Established |
+| The photon marks the proposed organizational transformation | Model interpretation |
+| Electron capture and neutron beta decay occur | Established |
 
----
-
-## 15. Scientific sources
-
-**[C1] NIST — CODATA Recommended Values of the Fundamental Physical Constants: 2022**
-
-Fundamental masses, magnetic moments, charges, and physical constants.
-
-https://physics.nist.gov/constants
-
-https://physics.nist.gov/cuu/pdf/all.pdf
-
-**[C2] NIST — Measurement of the Unperturbed Hydrogen Hyperfine Transition Frequency**
-
-Experimental determination of the hydrogen ground-state hyperfine transition.
-
-https://tf.nist.gov/general/pdf/2060.pdf
-
-**[C3] National Radio Astronomy Observatory — Essential Radio Astronomy, Chapter 7**
-
-Hydrogen 21-centimeter line and its magnetic origin.
-
-https://www.cv.nrao.edu/~sransom/web/Ch7.html
-
-**[C4] OpenStax — Maxwell's Equations and Electromagnetic Waves**
-
-Faraday induction, Maxwell–Ampère law, and electromagnetic coupling.
-
-https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves
-
-**[C5] NIST — Atomic Data for Hydrogen**
-
-Hydrogen energy levels and ionization energy.
-
-https://www.physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm
-
-**[C6] NIST — Atomic Spectra Database**
-
-Measured and evaluated atomic spectra and transitions.
-
-https://physics.nist.gov/asd
-
-**[C7] Measurable Science — Mathematical Model [A]**
-
-The author's relational-energy and organized-form framework.
-
-https://github.com/MeasurableScience/measurable-science/blob/main/References/A-mathematical-model.md
-
-**[C8] Measurable Science — Neutron Magnetism, Energy and Precession [B]**
-
-The author's preceding comparison between neutron magnetic moment, energy splitting, and precession.
-
-https://github.com/MeasurableScience/measurable-science/blob/main/References/B-neutron-magnetism-energy-precession.md
-
-**[C9] Measurable Science — Neutron [8]**
-
-Neutron properties, mass, and related scientific discussion.
-
-https://github.com/MeasurableScience/measurable-science/blob/main/References/008-neutron.md
-
-**[C10] Measurable Science — Electron Capture [11]**
-
-Electron capture and its interpretation in the author's transformation sequence.
-
-https://github.com/MeasurableScience/measurable-science/blob/main/References/011-electron-capture.md
+This distinction identifies which elements of the proposed mechanism are grounded in measurement, which follow mathematically under stated assumptions, and which form the author's physical interpretation.
 
 ---
 
-## 16. Conclusion
+## 14. Conclusion
 
-The experimentally established foundation is clear:
+References [A], [B] and [C] examine successive levels of the proposed relational model.
 
-The proton and electron have magnetic moments and electric charges. Their magnetic interaction produces measurable changes in hydrogen's energy spectrum. Time-dependent electromagnetic fields interact with electric currents, and proton–electron binding can occur with photon emission.
+Reference [A] describes the manifestation of potential through relations and the mathematical possibility of organized forms.
 
-Mathematics also establishes that transient quantum charge currents can exist during a transition even when the final stationary state has no radial orbital current.
+Reference [B] connects organized energy to the measurable properties of the neutron.
 
-The proposed additional mechanism is more specific:
+Reference [C] examines whether electromagnetic interactions can organize the motion of charged constituents during the formation of an atom.
 
-**A changing magnetic relation organizes a transient spiral electric current; that current participates in electromagnetic feedback; the feedback contributes to the formation of a stable atomic structure; photon emission accompanies the completed transformation.**
+Several mathematical and experimental results are directly relevant.
 
-This mechanism is not yet derived from the established proton–electron dynamics.
+The proton and electron possess measurable magnetic moments.
 
-The decisive test is therefore the calculation of the time-dependent charge-current field during radiative hydrogen formation, including magnetic coupling and radiation, without imposing a spiral in advance.
+Their magnetic interaction contributes to the hydrogen hyperfine spectrum.
 
-A verified spiral contribution would support part of the proposed organizational mechanism. Demonstrating that it causes stabilization would require an additional dynamical and experimental test.
+Faraday's law relates changing magnetic fields to induced electric fields.
 
-The absence of persistent radial current in the completed atom does not, by itself, disprove a transient formation-stage current.
+The motion of electric charge produces current, and a current containing suitable radial and azimuthal components can form a spiral.
 
-**The formation process and the completed form must be investigated separately.**
+Time-dependent quantum states can possess transient currents that are absent from their corresponding stationary components.
 
-**The principle does not change. What enters into relation changes.**
+Maxwell's equations describe the feedback between electromagnetic fields and moving charge.
+
+Finally, proton–electron binding can occur through a process in which a photon carries away released energy.
+
+These results provide a mathematical framework for examining the author's proposed sequence:
+
+**MAGNETISM → MOTION → SPIRAL CURRENT → ELECTROMAGNETIC FEEDBACK → ORGANIZED ATOMIC FORM → PHOTON EMISSION.**
+
+The central hypothesis is that changing electromagnetic relations can contribute to a transient spiral current whose feedback participates in the formation of an organized atomic state.
+
+The decisive quantitative investigation is to calculate the time-dependent current during proton–electron binding and determine whether the proposed spiral structure emerges from the dynamics.
+
+The model therefore connects its organizational principle to measurable atomic properties and to explicit equations governing electromagnetic interactions, quantum currents and photon emission.
+
+**THE PRINCIPLE DOES NOT CHANGE. WHAT ENTERS INTO RELATION CHANGES.**
+
+---
+
+## 15. Sources and related references
+
+**[A]** [Mathematical Model of Potential, Relations, Energy and Organization](https://github.com/MeasurableScience/measurable-science/blob/main/References/A-mathematical-model.md)
+
+**[B]** [Neutron Magnetic Moment, Energy and Precession](https://github.com/MeasurableScience/measurable-science/blob/main/References/B-neutron-magnetism-energy-precession.md)
+
+**[8]** [Neutron](https://github.com/MeasurableScience/measurable-science/blob/main/References/008-neutron.md)
+
+**[10]** [Ancient Atomism](https://github.com/MeasurableScience/measurable-science/blob/main/References/010-ancient-atomism.md)
+
+**[11]** [Electron Capture](https://github.com/MeasurableScience/measurable-science/blob/main/References/011-electron-capture.md)
+
+**NIST — CODATA 2022:** [Fundamental Physical Constants](https://physics.nist.gov/constants)
+
+**NIST:** [Atomic Spectra Database](https://physics.nist.gov/asd)
+
+**NIST:** [Atomic Data for Hydrogen](https://physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm)
+
+**NIST:** [Hydrogen Hyperfine Transition Measurement](https://tf.nist.gov/general/pdf/2060.pdf)
+
+**NRAO:** [Essential Radio Astronomy — Hydrogen 21-cm Line](https://www.cv.nrao.edu/~sransom/web/Ch7.html)
+
+**OpenStax:** [Maxwell's Equations and Electromagnetic Waves](https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves)
+

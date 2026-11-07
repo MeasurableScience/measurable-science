@@ -1,742 +1,305 @@
-# Reference [A] — Relation, Energy, Spiral and Mass
+# Reference A — Mathematical Model of Relation, Energy, and Spiral Organization
 
-## Purpose
+## 1. Purpose
 
-This reference develops the mathematical structure used in *Merljiva Nauka*
-to connect:
+This reference develops the mathematical possibility proposed in the first part of *Measurable Science*: unmanifested potential becomes relational energy, relational action changes organization, organized relations can form spiral structures, and a stable organized form may acquire a measurable rest energy and mass. The neutron is considered the proposed **generator of matter**, not matter in its complete atomic form.
 
-**relation → potential → energy → attraction/repulsion → motion → change of relation → vibration → spiral → organized form → mass**
+The central proposition is:
 
-The central result is that the proposed sequence can be written as one
-continuous mathematical chain in which relational potential and energy are
-expressed in joules, while the energy of the resulting organized form is
-connected through **E = mc²** to mass expressed in kilograms.
+**Potential belongs to the possibility carried by a fundamental unit. Manifested energy belongs to the relation, not to an isolated unit.**
 
----
+## 2. Fundamental units and the first relation
 
-## 1. Relation
+Let the set of hypothetical fundamental units be
 
-Let two fundamental units be labelled **i** and **j**.
+```text
+S = {S_1, S_2, ..., S_N}
+```
 
-Their relation is represented by:
+Each super-cell `S_i` carries an unmanifested potential `P_i`. The values `P_i` need not be identical. The isolated unit has no assigned mass, manifested energy, or fixed positive or negative polarity. Space and time are not assumed to be properties of this initial level. In the author's working physical interpretation, neutrinos are the candidate initial super-cells; mathematically, `S_i` names the postulated elementary unit without assuming that measured neutrino properties have already been derived.
 
-**R_ij**
+An elementary relation is denoted by `R_ij`. At this level, *contact* means the establishment of a direct relation; it does not presuppose a metric distance. We represent the relative orientation of a relation by a phase angle:
 
-and may change with time:
+```text
+R_ij = (S_i, S_j, phi_ij)
+```
 
-**R_ij = R_ij(t)**
+Angles are defined relative to a chosen relational direction. A reference direction is a mathematical convention, not an absolute axis in a pre-existing space.
 
-The change of relation between two states is:
+## 3. Three possible relational outcomes
 
-**Delta R_ij = R_ij(t2) - R_ij(t1)**
+The model distinguishes three outcomes:
 
-The relation itself describes the state between the units.
+```text
++    positive
+-    negative
+?    not yet determined
+```
 
-Potential is not assigned in advance to either isolated unit.
+The third symbol is not the number zero. A zero of a mathematical component means that component has a definite value of zero; `?` means that the relational outcome has not yet been selected. Polarity is attributed to the manifested relation, not permanently to the isolated super-cell.
 
-It arises through relation.
+For determined polarities, the proposed relational rule is:
 
----
+```text
+(+, -) or (-, +)  -> attraction
+(+, +) or (-, -)  -> repulsion
+any relation with ? -> outcome not yet determined
+```
 
-## 2. Potential
+Attraction and repulsion here name the relational tendencies toward connection or separation. Before emergent space, they are not defined as forces acting across a measured distance.
 
-The potential produced by the relation is represented as:
+## 4. Geometry of phase
 
-**P_ij = P(R_ij)**
+The elementary angular functions are
 
-The model treats this as an energetic potential of the relation.
+```text
+C(phi) = cos(phi)
+T(phi) = sin(phi)
+C(phi)^2 + T(phi)^2 = 1
+```
 
-Therefore:
+Their exact values at the cardinal orientations are:
 
-**[P_ij] = J**
+| Phase   | C(phi) | T(phi) |
+| ------- | -----: | -----: |
+| 0 deg   |     +1 |      0 |
+| 90 deg  |      0 |     +1 |
+| 180 deg |     -1 |      0 |
+| 270 deg |      0 |     -1 |
+| 360 deg |     +1 |      0 |
 
-where:
+The two components exchange prominence as the phase changes. At 90 and 270 degrees the cosine component vanishes while the magnitude of the sine component is maximal. This is a geometrical candidate for describing a transition between alignment and rotational tendency. It does not require identifying the mathematical zero with the undetermined state `?`.
 
-**J = joule**
+## 5. The manifestation function M
 
-and:
+The relational energy is defined abstractly by
 
-**1 J = 1 kg·m²/s²**
+```text
+E_ij = M(P_i, P_j, R_ij)
+```
 
-The first mathematical step is therefore:
+When the phase is the relevant relational variable:
 
-**R_ij → P(R_ij) [J]**
+```text
+E_ij = M(P_i, P_j, phi_ij)
+```
 
-The relation determines the potential, while the potential has the physical
-dimension of energy.
+The cosine is the simplest nonconstant even periodic harmonic: an economical first approximation when reversal of the sign of the angular coordinate leaves the interaction energy unchanged. We therefore adopt the following **candidate angular form** for the minimal relational model. Additional harmonics remain possible, but are not required at this stage:
 
----
+```text
+K_ij = G(P_i, P_j)
+U_ij(phi_ij) = -K_ij * cos(phi_ij)
+```
 
-## 3. Energy
+Here `K_ij` is an interaction-energy scale, expressed in joules only when the relational level admits physical calibration. `G` represents the as-yet-undetermined mapping from the two unmanifested potentials to that scale. It is not an initial energy assigned separately to either unit. The choice of `G` is an explicit quantitative research target, to be constrained by numerical models and measurements; the present geometry alone does not fix its numerical form.
 
-The manifestation of potential is energy.
+`E_ij` denotes the manifested relational energy in the general model. `U_ij` denotes its orientation-dependent interaction-energy term in this particular minimal realization of `M`; it is not a second independent source of energy. The zero of `U_ij` is a reference choice. A negative `U_ij` does not mean negative total energy, and `U_ij = 0` does not imply that the relation has no ability to act.
 
-For the relation between units **i** and **j**:
+The angular derivative gives the corresponding generalized rotational action:
 
-**E_ij = E(P_ij)**
+```text
+T_ij = -dU_ij/d(phi_ij)
+T_ij = -K_ij * sin(phi_ij)
+```
 
-and therefore:
+For a fixed `K_ij`, the greatest magnitude occurs at 90 and 270 degrees, while the angular action vanishes at 0 and 180 degrees. The former are maximal angular-response orientations; the latter are stationary angular orientations. In this candidate cosine model 0 degrees is a minimum of interaction energy and 180 degrees is a maximum. Neither stationary orientation alone establishes the behavior of a many-relation system.
 
-**E_ij = E(P(R_ij))**
+## 6. Energy released through change of relation
 
-with:
+For two relational configurations A and B, assuming the same `K_ij`:
 
-**[E_ij] = J**
+```text
+Delta_U_ij = U_ij(B) - U_ij(A)
+Delta_U_ij = -K_ij * [cos(phi_B) - cos(phi_A)]
+```
 
-The mathematical chain is now:
+For the change from 180 degrees to 0 degrees:
 
-**R_ij → P(R_ij) [J] → E(P(R_ij)) [J]**
+```text
+U_A = +K_ij
+U_B = -K_ij
+Delta_U_ij = -2K_ij
+```
 
-Potential and manifested energy therefore belong to the same dimensional
-family:
+Thus the interaction-energy value decreases by `2K_ij`. Within a developed physical description, that difference can appear in other forms of energy. The mathematical meaning of this construction is that the energetics are determined by *change of relation*, not by treating an isolated unit as a container of already manifested energy.
 
-**[P_ij] = [E_ij] = J**
+Attraction, repulsion, and rotational action are distinct aspects of relational change. The angular derivative describes the tendency to change orientation; it does not by itself establish a spatial force of approach or separation. The primordial construction uses the angular part first; it does **not** assume distance, a spatial force law, or time before these notions become meaningful through organization.
 
-The difference between them in the model is not dimensional but physical:
+## 7. Three relations, alignment, and equilibrium
 
-**potential represents possibility of energetic manifestation; energy is its
-manifestation.**
+Two units establish one relation. Three units first allow a closed network of pairwise relations:
 
----
+```text
+R_12, R_23, R_31
+```
 
-## 4. Attraction and repulsion
+The corresponding geometrical illustration uses three equal directed vectors of magnitude `p`, with orientations 0, 120, and 240 degrees:
 
-Manifested relational energy produces a directional effect between the units.
+```text
+V_1 = p * (cos(0), sin(0))
+V_2 = p * (cos(120 deg), sin(120 deg))
+V_3 = p * (cos(240 deg), sin(240 deg))
 
-Two opposite outcomes are possible:
+V_1 + V_2 + V_3 = 0
+```
 
-**attraction**
+The vanishing resultant does not eliminate any of the individual vectors. It demonstrates how nonzero components can form an organized zero-sum alignment.
 
-and:
+Displace the third orientation by `delta`:
 
-**repulsion**
+```text
+phi_3 = 240 deg + delta
+|V_1 + V_2 + V_3| = 2p * |sin(delta/2)|
+```
 
-Introduce:
+Therefore a change in one phase can disturb a balanced configuration. For a chosen signed projection, the same perturbation produces a term proportional to `p * sin(delta)`, which can be positive, negative, or zero. These are geometric results; the proposed attraction/repulsion rule specifies how the model interprets them as relational outcomes.
 
-**s_ij ∈ {-1, +1}**
+For a network, a generalized balanced state may be written as
 
-where **s_ij** represents the direction of the effect and is not a permanent
-positive or negative property of either isolated unit.
+```text
+SUM_j D_ij = 0
+```
 
-The directional effect of one relation is represented generally as:
+This defines a zero resultant of the modeled actions. It does not require every internal action to vanish. In the author's terminology, a *quiet point* is an alignment from which reorganization may occur, not necessarily the permanent end of organization.
 
-**D⃗_ij = s_ij D(E_ij) n̂_ij**
+## 8. From unorganized relations to a spiral
 
-where:
+In a many-unit network, one unit can participate in several relations at once. Their different phase orientations need not cancel. The combined relational response may be decomposed into components defined relative to an emerging local center:
 
-- **E_ij** is the energy of the relation;
-- **D(E_ij)** is the magnitude of its directional effect;
-- **n̂_ij** is the direction associated with the relation;
-- **s_ij** distinguishes the two opposite outcomes.
+```text
+D_i = D_r * r_hat + D_theta * theta_hat
+```
 
-Thus the sign belongs to the manifested relation, not permanently to the
-fundamental unit.
+Here `r_hat` and `theta_hat` are coordinates used to describe an **already emerging organization**, not a pre-existing primordial space. A nonzero tangential component permits turning; simultaneous radial reorganization permits contraction or expansion. The fundamental network remains discrete: a developing spiral is represented by an ordered sequence of relational configurations, not by assuming that a smooth curve exists between two super-cells. For a sufficiently large or finely sampled organized sequence, a continuous curve can describe its geometry approximately. If that ordered trajectory has both changing radius and accumulated angle, its continuum description may take the form
 
----
+```text
+r = r(theta)
+```
 
-## 5. Resultant of many relations
+with inward or outward winding according to the direction of radial change. The spiral is therefore considered a possible result of coupled relational actions, not an additional fundamental substance or a shape imposed in advance.
 
-A unit does not participate in only one relation.
+The construction does not require every super-cell to become organized. Local subsets can form balanced, rotating, spiralling, or disintegrating structures while the wider network remains unorganized. Repeated changes of relational configuration can also generate oscillatory patterns: if a configuration returns to a previously occupied state, it constitutes a cycle in the ordered sequence of states. A measurable frequency becomes definable only once an emergent time scale is introduced.
 
-If unit **i** simultaneously participates in many relations, their combined
-directional effect is:
+The candidate M function supplies angular response; a complete numerical calculation of spiral formation additionally requires a rule for updating connectivity and radial organization.
 
-**D⃗_i = Σ_(j≠i) D⃗_ij**
+## 9. From a spiral to an organized form
 
-or:
+An individual spiral is a mode of relational organization, not yet necessarily a persistent material object. In the model, several organized subsets may enter new relations. Some resulting configurations may reorganize or separate; others may support a persistent relational structure. Denote such a structured network by
 
-**D⃗_i = Σ_(j≠i) s_ij D(E_ij) n̂_ij**
+```text
+Omega = {S_i, R_ij, phi_ij | i,j in organized subset}
+```
 
-Substituting the relational expression for energy gives:
+The energy associated with the organized form is written generally as
 
-**D⃗_i = Σ_(j≠i) s_ij D(E(P(R_ij))) n̂_ij**
+```text
+E_Omega = H({E_ij}, Omega)
+```
 
-This equation connects the resultant motion directly with the network of
-relations.
+The functional `H` accounts for the organized system as a whole, including the arrangement and possible nonadditive contributions of its internal relations. Accordingly, it is not assumed that `E_Omega` is simply the sum of all signed `U_ij` terms: a set of positive and negative interaction-energy contributions can have a zero sum without the organized form having zero rest energy.
 
-If:
+The author's model proposes that organized spiralling relations can produce a new form or undergo disintegration. The creation of a stable form therefore represents a *transformation in the organization of relations*, not the appearance of mass in an isolated fundamental unit.
 
-**D⃗_i = 0**
+## 10. The neutron as the generator of matter
 
-the simultaneous directional effects cancel at that state.
+The author proposes that the neutron arises from the spiral organization of neutrino relations. In this model, **the neutron is the generator of matter, not matter in its complete atomic form**. It is the first organized structure in the proposed sequence from which further transformations can produce the constituents of an atom.
 
-If:
+Three geometric relations provide a minimal closed relational cycle, and neutrinos have three observed flavors: electron, muon and tau. A neutron has three valence quarks, one up and two down. The numerical coincidence motivates a comparison of organization, but the three neutrino flavors are not thereby identified with the three quarks.
 
-**D⃗_i ≠ 0**
+In the established description, the valence-quark electric charges in a neutron sum to zero:
 
-they do not cancel and the state changes.
+```text
+Q_n = (+2/3) + (-1/3) + (-1/3) = 0
+```
 
-The unit moves.
+The zero total charge illustrates the mathematical principle that a neutral resultant may contain nonzero internal contributions. It is not a calculation of the neutron from super-cells. The known neutron structure is described by quarks, gluons and their strong interaction; the proposed origin in neutrino relations is a distinct physical hypothesis.
 
----
+A free neutron undergoes beta decay:
 
-## 6. Motion changes relation
+```text
+n -> p + e^- + anti_nu_e
+```
 
-Motion changes the relation between units.
+The appearance of an electron antineutrino in this transformation is one of the empirical processes the author uses to motivate investigation of neutrino relations and matter formation. The decay products include a proton and an electron, which can participate in the formation of an atom through subsequent interactions. In this sense, the neutron is presented as a **generator of the components from which a more complete material organization can arise**. The decay equation by itself does not establish that the neutron was assembled from neutrinos.
 
-Therefore:
+## 11. Rest energy and the emergence of mass
 
-**R_ij(t1) ≠ R_ij(t2)**
+The neutron has a measured mass, approximately
 
-and:
+```text
+m_n = 1.67492750056 * 10^(-27) kg
+```
 
-**Delta R_ij ≠ 0**
+and a corresponding rest-energy value
 
-But because:
+```text
+E_n = m_n * c^2 = 939.56542194 MeV
+```
 
-**P_ij = P(R_ij)**
+For an organized form `Omega`, the model adopts the established mass-energy relation once a measurable rest frame and physical units are available:
 
-a changed relation changes the conditions that determine potential.
+```text
+E_Omega = m_Omega * c^2
+m_Omega = E_Omega / c^2
+```
 
-And because:
+Its dimensions close exactly:
 
-**E_ij = E(P_ij)**
+```text
+[E_Omega] = J
+[c^2] = m^2/s^2
+[m_Omega] = J / (m^2/s^2) = kg
+```
 
-a changed potential changes the conditions that determine manifested energy.
+Here *static energy of organized form* means rest energy, not a prohibition of internal motion. No mass is assigned to an isolated primordial `S_i` in the proposed model; mass is attributed at the organized-form level. The known neutron rest energy is a measured target for the future determination of `H`, not a value already derived from `M`.
 
-The process therefore closes into a feedback cycle:
+The resulting formal sequence is
 
-**R_ij → P_ij → E_ij → attraction/repulsion → motion → Delta R_ij**
+```text
+UNMANIFESTED POTENTIAL
+ -> RELATION
+ -> MANIFESTED RELATIONAL ENERGY
+ -> ATTRACTION / REPULSION
+ -> FIRST CHANGE AND UNORGANIZED MOTION
+ -> RELATIONAL CHAOS
+ -> LOCAL SPIRAL ORGANIZATION
+ -> TRANSFORMATION INTO ORGANIZED FORM
+ -> REST ENERGY AND MASS
+```
 
-followed by:
+## 12. Mathematical summary
 
-**R'_ij → P'_ij → E'_ij → attraction/repulsion → new motion**
+```text
+S_i                    fundamental unit
+P_i                    unmanifested potential of S_i
+R_ij                   direct relation/contact
+phi_ij                 relative phase of the relation
 
-and again:
+E_ij = M(P_i, P_j, R_ij)
 
-**R''_ij → P''_ij → E''_ij → ...**
+K_ij = G(P_i, P_j)
+U_ij = -K_ij * cos(phi_ij)
+T_ij = -K_ij * sin(phi_ij)
 
-The result is not a single event but a continuing process.
+Delta_U_ij = U_ij(B) - U_ij(A)
 
-In the terminology of *Merljiva Nauka*:
+C(phi)^2 + T(phi)^2 = 1
 
-**relation → potential → energy → attraction/repulsion → motion → change of
-relation → new potential → new energy → new motion**
+V_1 + V_2 + V_3 = 0           (120-degree symmetric case)
+|V(delta)| = 2p * |sin(delta/2)|
 
-is:
+SUM_j D_ij = 0               (balanced resultant)
+D_i = D_r * r_hat + D_theta * theta_hat
+r = r(theta)                 (possible spiral geometry)
 
-**VIBRATION**
+Omega = organized relational form
+E_Omega = H({E_ij}, Omega)
+m_Omega = E_Omega / c^2
 
-This is the mathematical expression of the primary principle:
+Q_n = (+2/3) + (-1/3) + (-1/3) = 0
+n -> p + e^- + anti_nu_e
+```
 
-**EVERYTHING MOVES AND EVERYTHING TENDS TOWARD REST.**
+The mathematical proposal is a progression from unmanifested potential to relational energy, phase-dependent response, changes of relationship, spiral organization, and the possibility of a material form with measurable rest energy. The quantitative research targets are `G(P_i,P_j)`, the rule governing relational reorganization, and `H({E_ij},Omega)`. Their explicit determination would make it possible to calculate rather than merely parameterize the energy of a proposed organized form.
 
-A state may approach cancellation of one set of relational effects, while the
-same movement changes its other relations and creates new conditions for
-motion.
-
----
-
-## 7. From many relations to geometry
-
-For many simultaneous relations:
-
-**D⃗_i = Σ_(j≠i) D⃗_ij**
-
-The resultant does not need to point only toward or away from a centre.
-
-Relative to a centre of organization, the resultant can be decomposed into:
-
-**D⃗_i = D_r r̂ + D_theta θ̂**
-
-where:
-
-- **D_r** is the radial component;
-- **D_theta** is the tangential component;
-- **r̂** is the radial direction;
-- **θ̂** is the tangential direction.
-
-This produces three geometrically distinct cases.
-
----
-
-## 8. Radial motion
-
-If:
-
-**D_r ≠ 0**
-
-and:
-
-**D_theta = 0**
-
-the motion changes the distance from the centre without producing angular
-motion.
-
-Therefore:
-
-**dr/dt ≠ 0**
-
-and:
-
-**dθ/dt = 0**
-
-The result is radial motion.
-
-For:
-
-**dr/dt < 0**
-
-the system moves toward the centre.
-
-For:
-
-**dr/dt > 0**
-
-the system moves away from the centre.
-
----
-
-## 9. Rotation
-
-If:
-
-**D_r = 0**
-
-and:
-
-**D_theta ≠ 0**
-
-then:
-
-**dr/dt = 0**
-
-and:
-
-**dθ/dt ≠ 0**
-
-The distance from the centre remains constant while the angular position
-changes.
-
-The result is rotation.
-
----
-
-## 10. Spiral
-
-If both components exist simultaneously:
-
-**D_r ≠ 0**
-
-and:
-
-**D_theta ≠ 0**
-
-then:
-
-**dr/dt ≠ 0**
-
-and:
-
-**dθ/dt ≠ 0**
-
-The unit simultaneously changes:
-
-1. its distance from the centre;
-2. its angular position around the centre.
-
-Therefore:
-
-**r = r(t)**
-
-and:
-
-**θ = θ(t)**
-
-Eliminating time gives:
-
-**r = r(θ)**
-
-The trajectory is spiral.
-
-Thus:
-
-**radial motion + tangential motion = spiral motion**
-
-For:
-
-**dr/dt < 0**
-
-the trajectory is a contracting spiral.
-
-For:
-
-**dr/dt > 0**
-
-the trajectory is an expanding spiral.
-
-No additional interaction has been introduced.
-
-The spiral is a geometrical outcome of the same simultaneous relational
-effects already contained in:
-
-**D⃗_i = Σ_(j≠i) D⃗_ij**
-
-Therefore:
-
-**RELATION → ENERGY → RESULTANT MOTION → RADIAL + TANGENTIAL MOTION → SPIRAL**
-
-The spiral is not introduced as a new fundamental law.
-
-It emerges as a possible organized geometry of motion.
-
----
-
-## 11. Spiral as carrier of organization
-
-A spiral combines two processes within one continuous motion:
-
-**rotation**
-
-and:
-
-**compression or expansion**
-
-Rotation maintains motion around a centre.
-
-Compression brings participating units closer.
-
-Expansion moves them apart.
-
-When the network of relations maintains an organized pattern while its
-individual relations continue to change, the system possesses organization
-through motion.
-
-Represent the complete organized network as:
-
-**Ω = {R_ij}**
-
-The form is therefore not represented by one isolated unit.
-
-It is represented by an organized network of relations.
-
----
-
-## 12. Energy of organized form
-
-Every manifested relation participating in the organization has energy:
-
-**E_ij = E(P(R_ij))**
-
-with:
-
-**[E_ij] = J**
-
-The energy associated with the complete organization is represented by:
-
-**E_Ω = F({E_ij})**
-
-or equivalently:
-
-**E_Ω = F({E(P(R_ij))})**
-
-Because **E_Ω** is an energy:
-
-**[E_Ω] = J**
-
-and therefore:
-
-**[E_Ω] = kg·m²/s²**
-
-The mathematical sequence has now reached an organized physical quantity while
-preserving the energy dimension:
-
-**relation → potential [J] → energy [J] → organized energy [J]**
-
-The function **F** represents the way in which the individual relational
-energies participate in the complete organization.
-
-It is kept general rather than replacing it with an assumed simple sum.
-
----
-
-## 13. Relation between organized forms
-
-Let two organized forms be:
-
-**Ω_1**
-
-and:
-
-**Ω_2**
-
-They can themselves enter into relation:
-
-**R_(Ω1Ω2)**
-
-The same principle applies:
-
-**P_(Ω1Ω2) = P(R_(Ω1Ω2))**
-
-with:
-
-**[P_(Ω1Ω2)] = J**
-
-and its manifestation gives:
-
-**E_(Ω1Ω2) = E(P_(Ω1Ω2))**
-
-with:
-
-**[E_(Ω1Ω2)] = J**
-
-The mathematical principle has therefore not changed.
-
-Only the entities entering the relation have changed.
-
-At the first level:
-
-**unit ↔ unit**
-
-At the next level:
-
-**organized form ↔ organized form**
-
-If their relation produces a new persistent organization:
-
-**Ω_1 + Ω_2 → Ω_3**
-
-the result is a new organized form.
-
-In *Merljiva Nauka* this process is called:
-
-**TRANSFORMATION**
-
-Thus transformation does not require a new relational principle.
-
-**The principle remains the same. What enters the relation changes.**
-
----
-
-## 14. From organized energy to mass
-
-The organized form possesses energy:
-
-**E_Ω [J]**
-
-For the complete form considered in its rest frame, mass-energy equivalence
-gives:
-
-**E_Ω = mc²**
-
-Solving for mass:
-
-**m = E_Ω / c²**
-
-The dimensions now give:
-
-**[m] = [E_Ω] / [c²]**
-
-Since:
-
-**[E_Ω] = J**
-
-and:
-
-**1 J = 1 kg·m²/s²**
-
-while:
-
-**[c²] = m²/s²**
-
-we obtain:
-
-**[m] = (kg·m²/s²) / (m²/s²)**
-
-The factors **m²/s²** cancel:
-
-**[m] = kg**
-
-Therefore:
-
-**J / (m²/s²) = kg**
-
-and the mathematical transition from organized energy to mass is
-dimensionally closed:
-
-**E_Ω [J] → E_Ω/c² [kg]**
-
----
-
-## 15. Complete mass expression
-
-The organized energy was defined as:
-
-**E_Ω = F({E(P(R_ij))})**
-
-and:
-
-**m = E_Ω/c²**
-
-Substitution gives:
-
-**m = F({E(P(R_ij))}) / c²**
-
-with dimensions:
-
-**m [kg] = F({E(P(R_ij))}) [J] / c² [m²/s²]**
-
-therefore:
-
-**[kg] = [kg·m²/s²] / [m²/s²]**
-
-and finally:
-
-**[kg] = [kg]**
-
-The dimensional chain closes exactly.
-
-The complete mathematical path is therefore:
-
-**R_ij**
-
-↓
-
-**P(R_ij) [J]**
-
-↓
-
-**E(P(R_ij)) [J]**
-
-↓
-
-**attraction / repulsion**
-
-↓
-
-**resultant motion**
-
-↓
-
-**change of relation**
-
-↓
-
-**vibration**
-
-↓
-
-**radial + tangential motion**
-
-↓
-
-**spiral**
-
-↓
-
-**organized network Ω**
-
-↓
-
-**E_Ω = F({E(P(R_ij))}) [J]**
-
-↓
-
-**m = E_Ω/c² [kg]**
-
-Therefore:
-
-**RELATION → POTENTIAL → ENERGY → MOTION → VIBRATION → SPIRAL → ORGANIZED FORM → MASS**
-
----
-
-## 16. Joule and kilogram
-
-The connection can be shown directly from the SI units.
-
-One joule is:
-
-**1 J = 1 kg·m²/s²**
-
-The speed of light is:
-
-**c = 299,792,458 m/s**
-
-Therefore:
-
-**c² = 8.987551787 × 10¹⁶ m²/s²**
-
-For one kilogram:
-
-**E = mc²**
-
-gives:
-
-**E = (1 kg)(8.987551787 × 10¹⁶ m²/s²)**
-
-therefore:
-
-**1 kg ↔ 8.987551787 × 10¹⁶ J**
-
-Conversely:
-
-**1 J / c² = 1.112650056 × 10⁻¹⁷ kg**
-
-Thus energy expressed in joules and mass expressed in kilograms are connected
-directly by the factor **c²**.
-
-In the model, the energy entering this relation is the energy of the organized
-form:
-
-**m = E_Ω/c²**
-
----
-
-## 17. Result
-
-The mathematical structure developed above establishes a continuous
-dimensional path from relation to mass.
-
-Potential produced through relation is represented as an energy quantity:
-
-**P_ij = P(R_ij) [J]**
-
-Its manifestation is relational energy:
-
-**E_ij = E(P(R_ij)) [J]**
-
-Multiple simultaneous relational effects produce a resultant motion:
-
-**D⃗_i = Σ_(j≠i) D⃗_ij**
-
-When that resultant contains both radial and tangential components:
-
-**dr/dt ≠ 0**
-
-and:
-
-**dθ/dt ≠ 0**
-
-the resulting trajectory is spiral.
-
-Persistent organization of relations is represented as:
-
-**Ω = {R_ij}**
-
-and its energy as:
-
-**E_Ω = F({E(P(R_ij))}) [J]**
-
-Mass-energy equivalence then gives:
-
-**m = E_Ω/c² [kg]**
-
-with:
-
-**J / (m²/s²) = kg**
-
-The chain therefore closes both mathematically and dimensionally:
-
-**RELATION → POTENTIAL [J] → ENERGY [J] → MOTION → SPIRAL → ORGANIZED ENERGY [J] → MASS [kg]**
-
-In the terminology of *Merljiva Nauka*:
-
-**MASS IS THE ENERGY OF ORGANIZED FORM EXPRESSED THROUGH ITS REST-MASS EQUIVALENT.**
-
-or, in the compact formulation used in the book:
-
-**MASS IS THE STATIC ENERGY OF ORGANIZED FORM.**
-
-The model therefore connects the emergence of mass with the organization of
-energy without introducing mass as a separate starting property of the
-fundamental unit.
+**The proposed fundamental principle: potential is manifested in relation; relational energy initiates change; unorganized changes can develop spiral organization; and organized relational energy may appear as the rest energy and mass of a material form.**
